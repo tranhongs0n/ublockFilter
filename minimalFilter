@@ -1,3 +1,4 @@
+! SHOPEE !
 !---------------------! Common !---------------------!
 ! Header
 ! Flexbox - Left
@@ -67,3 +68,45 @@ shopee.vn##._3TIoOR
 ! Lowercase some part
 shopee.vn##a.navbar-with-more-menu__item:style(text-transform: lowercase)
 shopee.vn##.ne3HDa:style(text-transform: lowercase)
+
+
+
+! GOOGLE GEMINI !
+!---------------------! Chatbox !---------------------!
+! Warning
+gemini.google.com##.ng-tns-c1234278934-1.gmat-caption
+
+!---------------------! Sidebar !---------------------!
+! Location
+gemini.google.com##.expanded.ng-star-inserted.sidenav-with-history-container > .ng-star-inserted
+! Update to Advance
+gemini.google.com##upsell-button.ng-star-inserted
+! Activity
+gemini.google.com##.ng-star-inserted.gmat-mdc-list.desktop-controls.mdc-list.mat-mdc-list-base.mat-mdc-action-list > .ng-star-inserted.mat-mdc-tooltip-trigger
+! Help
+gemini.google.com##side-nav-action-button.mat-mdc-menu-trigger.mat-mdc-tooltip-trigger:nth-of-type(1)
+
+
+!viblo.asia!
+viblo.asia##.promo__banner,
+viblo.asia##.fixed-bottom-bar,
+viblo.asia##.post-author__info viblo.asia##.stats,
+viblo.asia##.post-author__info viblo.asia##.subscribe,
+viblo.asia##.post-author__info viblo.asia##.text-muted,
+viblo.asia##.post-meta,
+viblo.asia##.post__menu,
+viblo.asia##.post-action,
+viblo.asia##.post-footer,
+viblo.asia##.license-text,
+viblo.asia##.elated-posts-box 
+viblo.asia##.el-dialog__wrapper,
+viblo.asia##.v-modal
+
+
+
+
+
+
+
+
+
