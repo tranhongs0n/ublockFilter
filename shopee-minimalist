@@ -1,0 +1,69 @@
+!---------------------! Common !---------------------!
+! Header
+! Flexbox - Left
+shopee.vn##._20ATCl.v-center.flex
+shopee.vn##.AFNv_2.v-center.flex
+! Flexbox right
+shopee.vn##li.navbar__link--tappable.navbar__link--hoverable.navbar__link.navbar__link--notification
+shopee.vn##.navbar__link--help.navbar__link--hoverable.navbar__link--tappable.navbar__link
+
+! Header recommendation
+shopee.vn##._2ZS\+XW
+
+! Footer
+shopee.vn##.uZncG4._5mVtqL
+shopee.vn##.Ji_QfP.DFTbCr
+
+! Flashsale (FS)
+! FS - Sold count
+shopee.vn##.RJ6Vpu.eNmE7o
+! FS - Shop Badge
+shopee.vn##._03KWvv
+! FS - Discount badge
+shopee.vn##.dEw30H
+
+
+!---------------------! Homepage !---------------------!
+! Banner, Category
+shopee.vn##.section-banner-hotword--no-skinvn
+shopee.vn##.section-banner-hotword--no-skin
+shopee.vn##.home-category-list
+shopee.vn##.homepage-mall-section
+! Category - Based on searched.
+shopee.vn##.shopee-header-section--simple.lNqSit.shopee-header-section
+! StackUI, THIS MIGHT CAUGHT SOME BUG.
+shopee.vn##.section-below-the-fold > div:nth-of-type(3)
+
+! Recommendation
+! Recommendation - Item
+shopee.vn##.shopee_itemcard__discount_tag_container
+shopee.vn##.shopee_itemcard__badge_br_container .shopee_itemcard__badge_ad
+shopee.vn##.shopee_itemcard__panel .shopee_itemcard__badge_br_container .shopee_itemcard__badge_video
+shopee.vn##.shopee_itemcard__panel .shopee_itemcard__image_flag_container .shopee_itemcard__image_flag_wrapper
+
+!---------------------! Page Product !---------------------!
+shopee.vn##.page-product__hot-sales.product-shop-hot-sales
+! Report
+shopee.vn##.YysGiT
+! Like, Share
+shopee.vn##.TFDXyQ .items-center.justify-center.flex
+! Shipping
+shopee.vn##.uVwYBh.KIoPj6.flex
+! Deal shock
+shopee.vn##.yjMlzR
+! Paid later
+shopee.vn##section.KIoPj6.flex
+! Benefit
+shopee.vn##.DXQgih.flex-column.flex-auto > div:has-text("7 ngày miễn phí trả hàng")
+! Description - Scroll
+shopee.vn##.e8lZp3:style(max-height: 450px; overflow: auto!important)
+
+!---------------------! Page Flashsale !---------------------!
+! Banner
+shopee.vn##.EQXUaX.container
+! Btn 'Buy now'
+shopee.vn##._3TIoOR
+
+! Lowercase some part
+shopee.vn##a.navbar-with-more-menu__item:style(text-transform: lowercase)
+shopee.vn##.ne3HDa:style(text-transform: lowercase)
