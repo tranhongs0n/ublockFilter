@@ -125,6 +125,73 @@ poe.com##.Message_botMessageBubble__aYctV, .Message_humanMessageBubble__DtRxA:st
 poe.com##.BaseNavbar_chatTitleNavbar__JROLE.HeaderBar_header__ydlc6
 poe.com##.ExploreBotListItem_botDescription__Ps9Jt
 
+! FB !
+! Footer
+www.facebook.com##footer
+
+! Corner upload
+www.facebook.com##.xixxii4.xds687c.x1ey2m1c
+
+www.facebook.com##img[alt*="Đọc Trộm Tin Nhắn"]
+
+! 2024-02-13 https://www.facebook.com
+! Homepage
+! Left bar
+www.facebook.com##.x9e5oc1.xxzkxad.x7wzq59.x1xzczws.x10wlt62.x6ikm8r.x1u2d2a2.x1t2pt76.xxc7z9f.xnjgh8c.x112wk31.xnp8db0.x1ja2u2z.x9f619
+! Right bar
+www.facebook.com##.x1daaz14.xxzkxad.x7wzq59.x10wlt62.x6ikm8r.x1u2d2a2.x1t2pt76.xxc7z9f.xnjgh8c.x112wk31.xnp8db0.x1ja2u2z.x9f619
+! Navbar - Game
+www.facebook.com##.x9e5oc1.x1i64zmx.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2
+! Navbar - Friends, Videos
+www.facebook.com##li.x1gz44f.x1i64zmx.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2:nth-of-type(2)
+www.facebook.com##li.x1gz44f.x1i64zmx.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2:nth-of-type(3)
+! Story
+www.facebook.com##.x1g2khh7.x1n2onr6
+! Save password
+www.facebook.com##.x18vph2k.xbp6ddl.x65f84u.xkw1uh1.xo9bapn.xvue9z.x1gryazu.xat24cr.xkrivgy.xdj266r
+! Upload
+www.facebook.com##.x1ceravr.xq1tmr.xvue9z.x193iq5w > div.x1yztbdb
+! Reels
+www.facebook.com##.xquyuld.x10wlt62.x6ikm8r.xh8yej3.xt3gfkd.xu5ydu1.xdney7k.x1qpq9i9.x2bj2ny.x1ja2u2z.x1n2onr6.x9f619 > div > .xh8yej3.x1n2onr6.x78zum5
+
+! Group
+! Suggest community chat
+www.facebook.com##.x1l90r2v.xyamay9.x193iq5w.x2lah0s.xdt5ytf.x78zum5.x9f619.x1ja2u2z.x1n2onr6
+! Upload
+www.facebook.com##.x7ep2pv.xu9j1y6.x19h7ccj.xjl7jj.x1i64zmx.x1e56ztr.x1emribx.x1xmf6yo.xs83m0k.xeuugli.x1ja2u2z.x1n2onr6.x9f619 > div > .x1yztbdb
+
+
+! Post
+! Comment interactive
+www.facebook.com##.x1xlr1w8.xi81zsa.xt0b8zv.x1a2a7pz.xggy1nq.x1hl2dhg.x16tdsg8.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.xt0psk2.x1ypdohk.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x17r0tee.x1sy0etr.xd10rxx.x1ejq31n.xjbqb8w.x1i10hfl
+! Share button
+www.facebook.com##div.x1yrsyyn.x10b6aqq.x1h0ha7o.xg83lxy.xs83m0k.x1iyjqo2.x1r8uery.xeuugli.x193iq5w.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619:nth-of-type(3)
+www.facebook.com##.x1uuop16.x1axty5n.x1aj7aux.x1fqkajt > .xifccgj.x4cne27.x1iorvi4.xjkvuk6.x1q0g3np.xozqiw3.x1qjc9v5.x1qughib.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6.x9f619 > div.x1yrsyyn.x10b6aqq.xs83m0k.x1iyjqo2.x1r8uery.xeuugli.x193iq5w.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619:nth-of-type(3)
+! Post interact count
+www.facebook.com##.xdppsyt.xkhd6sd.x1a8lsjc.x4uap5.x889kno.x1d52u69.xat24cr.xktsk01.xdj266r.xvq8zen.x13a6bvl.x6prxxf.x78zum5.xi81zsa.x6s0dn4 > .xifccgj.x4cne27.xbmpl8g.xykv574.x1q0g3np.xozqiw3.x1qjc9v5.x1qughib.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6.x9f619 > div.x1yrsyyn.x10b6aqq.x16hj40l.xsyo7zv.xeuugli.x193iq5w.x2lah0s.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619
+! Like label
+www.facebook.com##.xuxw1ft.xlyipyv.x10wlt62.x6ikm8r.x1mh8g0r.xrbpyxo.x2bj2ny.xt0b8zv > span > .x1e558r4
+! Spam commment
+www.facebook.com##.x1a2a7pz.x1q0g3np.x78zum5.x1iorvi4.x1swvt13.x1n2onr6:has-text(/shope|shopee/)
+
+
+
+! Fanpage
+
+! Header interactive minimal
+www.facebook.com##.xh8yej3 > .xh8yej3.x1n2onr6.xl56j7k.xdt5ytf.x3nfvp2.x9f619.x1a2a7pz.x1lku1pv.x87ps6o.x13rtm0m.x1e5q0jg.x3x9cwd.x1o1ewxj.xggy1nq.x1hl2dhg.x16tdsg8.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.x1ypdohk.xm0m39n.x1qhh985.xcfux6l.x972fbf.x17r0tee.x1sy0etr.xd10rxx.x1ejq31n.xjbqb8w.x1i10hfl > .x1r1pt67.x1qhmfi1.x1ye3gou.xn6708d.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x1403ito.x585lrc.x17zwfj4.xi112ho.x1q0g3np.xozqiw3.x6s0dn4.xl56j7k.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6 > .x1e0frkt.xljgi0e.x1608yet.xl56j7k.x78zum5.x6s0dn4 div:nth-child(2)
+www.facebook.com##.x1r1pt67.xtvsq51.x1ye3gou.xn6708d.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x1403ito.x585lrc.x17zwfj4.xi112ho.x1q0g3np.xozqiw3.x6s0dn4.xl56j7k.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6 > .x1e0frkt.xljgi0e.x1608yet.xl56j7k.x78zum5.x6s0dn4 div:nth-child(2)
+
+! Reels detail
+! Share button
+www.facebook.com##div.x14l7nz5.xzboxd6.x1e56ztr.x1xmf6yo.x193iq5w.x2lah0s.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619:nth-of-type(4) > .x1swf91x.x1uhb9sk.x1afcbsf.__fb-dark-mode > .x193iq5w.x2lah0s.xdt5ytf.x78zum5.x9f619.x1ja2u2z.x1n2onr6 > .x2lwn1j.x1iyjqo2.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619
+! Btn upload
+www.facebook.com##.x1r973d1.x1tk7jg1.x10l6tqk.x67bb7w
+
+! MENU
+! Description
+www.facebook.com##.xwib8y2.x1y1aw1k.x1ja2u2z.x1n2onr6.xkhd6sd.x4uap5.xeuugli.x2lwn1j.xdj266r.x1mh8g0r.x11i5rnm.xat24cr.x1qughib.xs83m0k.x1iyjqo2.xdt5ytf.x1r8uery.x78zum5.x9f619.x972fbf.x13fuv20.xm0m39n.x26u7qi.xcfux6l.xu3j5b3.x1qhh985.x1q0q8m5.x1qjc9v5 .x16ldp7u.xz62fqu.xdt5ytf.x78zum5 > div.x1ok221b.xu06os2 > .x1yc453h.xi81zsa.xo1l8bm.x1sibtaa.x1pg5gke.x676frb.x4zkp8e.x1943h6x.x1fgarty.x1cpjm7i.x1gmr53x.xhkezso.x1s928wv.x1lliihq.x1xmvt09.x1vvkbs.x13faqbe.xeuugli.x193iq5w
+
 
 
 
