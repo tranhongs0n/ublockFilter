@@ -1,0 +1,13 @@
+!---------------------! Chatbox !---------------------!
+! Warning
+gemini.google.com##.ng-tns-c1234278934-1.gmat-caption
+
+!---------------------! Sidebar !---------------------!
+! Location
+gemini.google.com##.expanded.ng-star-inserted.sidenav-with-history-container > .ng-star-inserted
+! Update to Advance
+gemini.google.com##upsell-button.ng-star-inserted
+! Activity
+gemini.google.com##.ng-star-inserted.gmat-mdc-list.desktop-controls.mdc-list.mat-mdc-list-base.mat-mdc-action-list > .ng-star-inserted.mat-mdc-tooltip-trigger
+! Help
+gemini.google.com##side-nav-action-button.mat-mdc-menu-trigger.mat-mdc-tooltip-trigger:nth-of-type(1)
