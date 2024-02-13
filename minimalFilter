@@ -194,6 +194,118 @@ www.facebook.com##.xwib8y2.x1y1aw1k.x1ja2u2z.x1n2onr6.xkhd6sd.x4uap5.xeuugli.x2l
 
 
 
+! ZALO !
+! View when not focus any chat
+chat.zalo.me##.chat-onboard.flx-center.flx-al-c.flx-col.flx
+! TO_DO
+chat.zalo.me##.nav__tabs__top > div.rel.flx-center.flx-al-c.flx-col.flx.leftbar-tab.clickable:nth-of-type(3)
+! Business function
+chat.zalo.me##.nav__tabs__bottom > div.rel.flx-center.flx-al-c.flx-col.flx.leftbar-tab.clickable:nth-of-type(2)
+
+! VOZ !
+voz.vn##.node-extra-icon
+voz.vn##.node-stats
+voz.vn##.listInline--bullet.listInline
+voz.vn##.p-body-sidebar
+voz.vn##.p-navgroup-link--user.p-navgroup-link--iconic.p-navgroup-link > .p-navgroup-linkText
+voz.vn##.js-offCanvasNavSource.p-nav-list
+voz.vn##.message-signature
+voz.vn##.shareButtons--iconic
+voz.vn##.p-header
+voz.vn##.structItem-cell.structItem-cell--icon
+voz.vn##.structItem-cell--meta.structItem-cell
+voz.vn##.p-footer
+voz.vn##.structItem-minor .username
+
+! VIET69 !
+viet69.li##.stats
+viet69.li##.masonry
+viet69.li###content:style(width: 100%!important)
+viet69.li##.grid-small .item:style(width: 25%!important)
+viet69.li###colophon
+viet69.li###main-nav
+viet69.li##.entry-tags
+viet69.li##.video-action__like
+viet69.li##.wrap:style(width: auto!important; padding: 0 100px;)
+
+! TWITCH !
+twitch.tv##.front-page-carousel
+twitch.tv###twilight-sticky-footer-root
+twitch.tv##.prime-offers
+twitch.tv##.jcwvVY
+twitch.tv##.chat-room__content.jmUA-dj.Layout-sc-1xcs6mc-0 > div.Layout-sc-1xcs6mc-0 > .jaGgya.Layout-sc-1xcs6mc-0
+twitch.tv##.chat-badge
+twitch.tv##.extensions-dock__layou
+
+! twitch.tv !
+www.twitch.tv##.krbPCX.Layout-sc-1xcs6mc-0
+www.twitch.tv##.jWHzQH.Layout-sc-1xcs6mc-0 > .hsXgFK.Layout-sc-1xcs6mc-0
+www.twitch.tv##.eUABfN.CoreText-sc-1txzju1-0
+www.twitch.tv##.cmdqmU.InjectLayout-sc-1i43xsx-0
+www.twitch.tv##.REkcH.ScTextWrapper-sc-10mto54-1 > .fAVISI.Layout-sc-1xcs6mc-0 > .gNgtQs.InjectLayout-sc-1i43xsx-0
+www.twitch.tv##.game-card > .fAVISI.Layout-sc-1xcs6mc-0 > .gNgtQs.InjectLayout-sc-1i43xsx-0
+www.twitch.tv##.ccVkYh.Layout-sc-1xcs6mc-0
+www.twitch.tv##.cKIKxU.Layout-sc-1xcs6mc-0
+www.twitch.tv##.hKEeil.Layout-sc-1xcs6mc-0
+
+! w3schools !
+www.w3schools.com##.m12.l2.w3-col
+www.w3schools.com###footerwrapper
+www.w3schools.com##.user-profile-bottom-wrapper
+www.w3schools.com##.tnb-right-section
+www.w3schools.com##.w3-bar-item.tnb-desktop-nav
+www.w3schools.com###subtopnav
+www.w3schools.com###main:style(width:100%!important; margin-top: 25px!important;)
+www.w3schools.com###leftmenuinner:style(padding-top: 60px!important)
+
+! GOODREADS !
+www.goodreads.com##.mainContentContainer--promo
+www.goodreads.com##.SiteHeaderBanner
+www.goodreads.com###Header:style(height: auto!important)
+www.goodreads.com##.BookPageTitleSection__share
+www.goodreads.com##.homeTertiaryColumn
+www.goodreads.com##.readingChallenge
+www.goodreads.com##section.showForLargeWidth.u-paddingBottomMedium.gr-homePageRailContainer:nth-of-type(2)
+www.goodreads.com##.homePrimaryColumn:style(width: calc(1220px - 300px - 20px - 20px)!important;     margin-right: 0px!important)
+www.goodreads.com##.siteHeader__topFullImageContainer
+
+! CHATGPT !
+chat.openai.com##.md\:px-\[60px\].text-token-text-secondary.text-xs.text-center.py-2.px-2.relative
+chat.openai.com##.text-xs.justify-center.items-center.w-6.h-6.flex
+chat.openai.com##.px-2.rounded-lg.m-0.hover\:bg-token-sidebar-surface-secondary.radix-disabled\:opacity-50.radix-disabled\:pointer-events-none.focus\:ring-0.cursor-pointer.text-sm.p-2\.5.gap-2.flex.group
+
+! TIKTOK !
+www.tiktok.com##.e1mecfx01.css-hlg65e-DivMainContent
+www.tiktok.com##.e1v8cfre0.css-1pcikqk-Button
+www.tiktok.com##.e11s2kul17.css-pj2fot-DivReportText
+www.tiktok.com##.e11s2kul28.css-zqqb1u-DivSearchBarContainer > .e1hi1cmj0.css-kpk1zk-DivSearchFormContainer > .e14ntknm0.css-mebjpe-FormElement.search-input
+www.tiktok.com##.e1aa9wve0.css-3yeu18-DivTabMenuContainer
+www.tiktok.com##.esns4rh0.css-1swe2yf-DivActionContainer
+www.tiktok.com##.e1g2efjf9.css-1sun2p5-PCommentSubContent
+www.tiktok.com##.css-ulyotp-DivCommentContentContainer:style(margin-bottom: 0px!important)
+www.tiktok.com##.e1gjoq3k0.css-py8jux-DivModalContainer
+www.tiktok.com##body.hidden:style(overflow: auto!important)
+www.tiktok.com##.e13wiwn60.css-q8q040-DivHeaderRightContainer
+www.tiktok.com##.e14l9ebt1.css-ir29em-DivSideNavContainer
+www.tiktok.com##.ew8lpw50.css-qxzyco-DivBottomContainer
+www.tiktok.com##.e13i6o240.css-5xaaoq-DivCategoryListWrapper
+www.tiktok.com##.ew8lpw50.css-hpmci4-DivBottomContainer
+www.tiktok.com##.ewsiauk1.css-f22ew5-DivMetaCaptionLine
+www.tiktok.com##.e1mzilcj0.css-1p94y92-DivWrapper
+www.tiktok.com##.e11s2kul28.css-zqqb1u-DivSearchBarContainer
+www.tiktok.com##.e1mecfx04.css-19hqadz-DivBottomCommentContainer
+www.tiktok.com##.ejg0rhn0.css-1wdx3tj-DivContainer
+www.tiktok.com##.e1v8cfre0.css-1847gtm-Button-StyledFollowButtonTux.e4an5uj1
+www.tiktok.com##.ejg0rhn0.css-1iy6zew-DivContainer
+www.tiktok.com##button.e1hk3hf90.css-1ok4pbl-ButtonActionItem:nth-of-type(4)
+www.tiktok.com##button.e1hk3hf90.css-1ok4pbl-ButtonActionItem:nth-of-type(3)
+
+! SPOTIFY !
+open.spotify.com###onetrust-consent-sdk
+open.spotify.com##.JG5J9NWJkaUO9fiKECMA
+open.spotify.com##.i4nABk12gLqZuh9Jbdw1
+open.spotify.com##.main-view-container__mh-footer-container
+
 
 
 
