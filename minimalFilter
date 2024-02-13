@@ -90,9 +90,12 @@ gemini.google.com##side-nav-action-button.mat-mdc-menu-trigger.mat-mdc-tooltip-t
 !viblo.asia!
 viblo.asia##.promo__banner
 viblo.asia##.fixed-bottom-bar
-viblo.asia##.post-author__info viblo.asia##.stats
-viblo.asia##.post-author__info viblo.asia##.subscribe
-viblo.asia##.post-author__info viblo.asia##.text-muted
+viblo.asia##.post-author__info 
+viblo.asia##.stats
+viblo.asia##.post-author__info 
+viblo.asia##.subscribe
+viblo.asia##.post-author__info 
+viblo.asia##.text-muted
 viblo.asia##.post-meta
 viblo.asia##.post__menu
 viblo.asia##.post-action
@@ -103,7 +106,7 @@ viblo.asia##.el-dialog__wrapper
 viblo.asia##.v-modal
 viblo.asia##.footer
 viblo.asia##div.main-navbar__group
-viblo.asia##.el-popup-parent--hidden:style(overflow: auto)
+viblo.asia##.el-popup-parent--hidden:style(overflow: auto!important)
 
 
 
