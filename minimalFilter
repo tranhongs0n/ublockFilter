@@ -108,6 +108,23 @@ viblo.asia##.footer
 viblo.asia##div.main-navbar__group
 viblo.asia##.el-popup-parent--hidden:style(overflow: auto!important)
 
+! POE !
+poe.com##.ChatHomeMain_exploreBotsCarousel__wddju
+poe.com##.SidebarLayout_right__r1sqP
+poe.com##.ChatPageNavbar_shareButton__QuaBY
+poe.com##.SidebarFooter_footer__3egHX
+poe.com##section.SidebarSection_section__uBaAP:nth-of-type(2)
+poe.com##section.SidebarSection_section__uBaAP:nth-of-type(3)
+poe.com##section.SidebarSection_section__uBaAP:nth-of-type(4)
+poe.com##.ChatHistoryListItem_secondaryText__bBw_y.ChatHistoryListItem_flexWithCenteredItems__Xmy6y,
+poe.com##.ChatHistoryListItem_textOverflow__vMchf.ChatHistoryListItem_secondaryText__bBw_y.ChatHistoryListItem_contentRow__U2Xfj
+poe.com##.ChatMessageActionBar_actionBar__gyeEs,
+poe.com##.ChatMessage_badge__ah1FU
+poe.com##.MainColumn_column__UEunw:style(width: 90%!important)
+poe.com##.Message_botMessageBubble__aYctV, .Message_humanMessageBubble__DtRxA:style(max-width: 100%!important)
+poe.com##.BaseNavbar_chatTitleNavbar__JROLE.HeaderBar_header__ydlc6
+poe.com##.ExploreBotListItem_botDescription__Ps9Jt
+
 
 
 
