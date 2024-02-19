@@ -360,4 +360,6 @@ www.youtube.com##ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-t
 
 www.youtube.com##ytd-compact-playlist-renderer.ytd-item-section-renderer.style-scope > .ytd-compact-playlist-renderer.style-scope
 
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+
 
