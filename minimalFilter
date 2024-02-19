@@ -346,7 +346,16 @@ www.youtube.com##ytd-compact-video-renderer:style(margin-top: 0px!important; mar
 www.youtube.com##.use-ellipsis.ytd-item-section-renderer.style-scope
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
 www.youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(/Your clips|Your videos|Downloads|Shorts/)
+www.youtube.com###content-icon > yt-icon.ytd-compact-link-renderer.style-scope
+www.youtube.com##.ytd-toggle-theme-compact-link-renderer.style-scope.content-icon > .ytd-toggle-theme-compact-link-renderer.style-scope
+www.youtube.com##yt-multi-page-menu-section-renderer.ytd-multi-page-menu-renderer.style-scope:nth-of-type(2)
+www.youtube.com##yt-multi-page-menu-section-renderer.ytd-multi-page-menu-renderer.style-scope:nth-of-type(5)
+www.youtube.com##yt-formatted-string.ytd-account-item-renderer.style-scope:nth-of-type(3)
+www.youtube.com##yt-formatted-string.ytd-account-item-renderer.style-scope:nth-of-type(2)
 
+www.youtube.com##ytd-account-item-renderer[thumbnail-size="48"]:style(--paper-item-icon-width: 30px!important; --paper-item-min-height: 45px!important;)
+www.youtube.com##.no-transition.ytd-account-item-renderer.style-scope > .yt-img-shadow.style-scope:style(max-height: 20px!important; max-width: 20px!important;)
+www.youtube.com##ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-account]:style(display:none!important)
 
 
 
