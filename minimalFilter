@@ -24,6 +24,9 @@ shopee.vn##._03KWvv
 shopee.vn##.dEw30H
 
 
+shopee.vn##shopee-banner-popup-stateful
+shopee.vn##.shopee-no-scroll:style(overflow: auto!important)
+
 !---------------------! Homepage !---------------------!
 ! Banner, Category
 shopee.vn##.section-banner-hotword--no-skinvn
