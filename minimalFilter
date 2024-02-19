@@ -224,17 +224,7 @@ voz.vn##.structItem-cell.structItem-cell--icon
 voz.vn##.structItem-cell--meta.structItem-cell
 voz.vn##.p-footer
 voz.vn##.structItem-minor .username
-
-! VIET69 !
-viet69.li##.stats
-viet69.li##.masonry
-viet69.li###content:style(width: 100%!important)
-viet69.li##.grid-small .item:style(width: 25%!important)
-viet69.li###colophon
-viet69.li###main-nav
-viet69.li##.entry-tags
-viet69.li##.video-action__like
-viet69.li##.wrap:style(width: auto!important; padding: 0 100px;)
+voz.vn##.p-body-sidebarCol
 
 ! TWITCH !
 twitch.tv##.front-page-carousel
