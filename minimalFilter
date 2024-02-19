@@ -358,5 +358,6 @@ www.youtube.com##.no-transition.ytd-account-item-renderer.style-scope > .yt-img-
 www.youtube.com##ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-account]:style(display:none!important)
 
 
+www.youtube.com##ytd-compact-playlist-renderer.ytd-item-section-renderer.style-scope > .ytd-compact-playlist-renderer.style-scope
 
 
