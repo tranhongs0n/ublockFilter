@@ -336,6 +336,7 @@ www.youtube.com##.ytd-compact-video-renderer.style-scope.badges
 www.youtube.com##ytd-badge-supported-renderer.ytd-channel-name.style-scope
 www.youtube.com##ytd-compact-video-renderer:style(margin-top: 0px!important; margin-bottom: 16px)
 www.youtube.com##.use-ellipsis.ytd-item-section-renderer.style-scope
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
 
 
 
