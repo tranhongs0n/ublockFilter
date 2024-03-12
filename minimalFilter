@@ -357,3 +357,4 @@ www.youtube.com##ytd-compact-playlist-renderer.ytd-item-section-renderer.style-s
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 
 
+www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer.style-scope:has-text(/YouTube Music|Downloads|Shorts/)
