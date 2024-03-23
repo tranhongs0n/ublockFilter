@@ -1,70 +1,167 @@
 ;DO NOT DELETE THIS LINE*** version=1 ***
-
-; EMOJI
-@.@:😵
-
-
-; VIẾT TẮT
+@@:😵
+<-:←
+->:→
+2d:2D
+3d:3D
 a:anh
+adhd:ADHD
+aids:AIDS
+asap:ASAP
+atm:ATM
 b:bạn
+baoh:bao giờ
+bbc:BBC
+bcc:BCC
+bdich:biên dịch
+bdsm:BDSM
 bh:bây giờ
 bth:bình thường
+bthan:bản thân
+bts:BTS
+bve:bảo vệ
+bvien:bệnh viện
 c:chị
-ce:chị em
+càe:cafe
+ce:các em
+ceo:CEO
+cfo:CFO
+ch:chờ
+chs:chơi
+chx:chỗ
 ck:chuyển khoản
 cmt:comment
 cn:chủ nhật
+cnang:chức năng
+cnn:CNN
 cno:chúng nó
 cntt:công nghệ thông tin
+cso:cửa sổ
+css:CSS
 cta:chúng ta
 ctay:chia tay
+ctrinh:chương trình
+ctuan:cuối tuần
 cty:công ty
 cvien:công viên
+cx:cũng
+d:đang
 dc:được
 đc:được
-dk:đăng ký
-đk:đăng ký
+dd:Đống Đa
+dhl:DHL
+diy:DIY
+dkien:điều kiện
+dky:đăng ký
+đky:đăng ký
+dm:bạn có chắc là sẽ dùng từ này không? Hãy bình tĩnh và chọn option khác nếu có thể.
+dna:DNA
+dnhap:đăng nhập
+dpi:DPI
 ds:danh sách
+dslr:DSLR
 dt:điện thoại
 đt:điện thoại
 e:em
+edomat:epls
+epls:eto
+eto:fa
+fa:FA
 fb:facebook
+fifa:FIFA
+fim:phim
+fyi:FYI
 gg:google
 ggm:google maps
+ghtk:GHTK
+gmo:GMO
+gsm:GSM
 h:giờ
+h&m:H&M
+hcm:Hồ Chí Minh
+hn:Hà Nội
 hnay:hôm nay
+hphuc:hạnh phúc
 hqua:hôm qua
+html:HTML
 ib:inbox
+ielts:IELTS
+imax:IMAX
+iot:IoT
+ipad:iPad
+iphone:iPhone
+iq:IQ
 j:gì
+jp:japan
+js:JavaScript
 jz:gì zậy
 k:không
+kb:không biết
+kfc:KFC
 ko:không
-mb:MBBank
+kp:không phải
+kpha:khám phá
+kpi:KPI
+kte:kinh tế
+kthuat:kỹ thuật
+ktra:kiểm tra
+ktx:ký túc xá
+l:là
+lm:làm
+lq:liên quan
+ltrinh:lập trình
+mbb:MBBank
+mck:MCK
 mk:mình
 mkt:marketing
 mn:mọi người
+mqh:mối quan hệ
+ms:mới
+n:nó
+nato:NATO
+nb:Ninh Bình
+nba:NBA
 nc:nước
 nch:nói chuyện
+neg:nè
+ng:người
+ngdung:người dùng
 nghang:ngân hàng
+ngta:người ta
+nhx:những
 nmai:ngày mai
 ns:nói
 nt:nhắn tin
 ntn:như thế nào
 nx:nữa
-ng:người
-ngta:người ta
 ny:người yêu
+ỏ:hoặc
+o:ông
+oem:OEM
 offl:offline
 onl:online
+p:phải
+pas:pass
+pdich:phiên dịch
+pkham:phòng khám
 pls:please
+psw:mật khẩu
+pt:phát triển
+qbiet:quen biết
+qly:quản lý
 qtrong:quan trọng
 r:rồi
 rep:reply
+rfid:RFID
+s:sao
 sdt:số điện thoại
 sđt:số điện thoại
-stk:số tài khoản
+shopee:Shopee
+smai:sáng mai
+sn:sinh nhật
 sr:sorry
-sv:sinh viên
+sso:SSO
+stk:số tài khoản
 t2:thứ 2
 t3:thứ 3
 t4:thứ 4
@@ -73,103 +170,52 @@ t6:thứ 6
 t7:thứ 7
 tcb:Techcombank
 tg:thời gian
+th:thôi
+thg:thằng
 thx:thanks
-tlai:tương lai
-tn:tin nhắn
-tp:thành phố
-ty:thank you
+tk:tài khoản
 tl:trả lời
+tlai:tương lai
+tmai:tối mai
+tn:tin nhắn
+tnay:tối nay
+tp:thành phố
+tqua:tối qua
+tr:trời
 trc:trước
-ty:thank you
-vc:việc
-vcb:Vietcombank
-vid:video
-vpb:VPBank
-vs:với
-vk:vợ
-xl:xin lỗi
-web:website
-yt:youtube
-z:zậy
-
-
-; VIẾT HOA
-
-2d:2D
-bdsm:BDSM
-fa:FA
-ac/dc: AC/DC
-ad: AD
-ada: ADA
-adhd: ADHD
-ads: ADS
-aids: AIDS
-asap: ASAP
-atm: ATM
-bbc: BBC
-bcc: BCC
-bts: BTS
-cctv: CCTV
-cdc: CDC
-ce: CE
-ceo: CEO
-cfo: CFO
-cia: CIA
-cnn: CNN
-dhl: DHL
-diy: DIY
-dna: DNA
-dpi: DPI
-dslr: DSLR
-eeg: EEG
-epl: EPL
-espn: ESPN
-etf: ETF
-fifa: FIFA
-fyi: FYI
-gmo: GMO
-gsm: GSM
-h&m: H&M
-html: HTML
-icu: ICU
-ied: IED
-ielts: IELTS
-imax: IMAX
-iot: IoT
-ipad: iPad
-iphone: iPhone
-iq: IQ
-jfk: JFK
-jpeg: JPEG
-jpl: JPL
-kfc: KFC
-kgb: KGB
-kpi: KPI
-lsd: LSD
-nato: NATO
-nba: NBA
-oem: OEM
-pbs: PBS
-pwc: PWC
-qvc: QVC
-rfid: RFID
-ufc: UFC
-unesco: UNESCO
-url: URL
-vip: VIP
-wifi: WiFi
-
-
-; SYMBOLS
-
-<-:←
-->:→
-
-; CHÍNH TẢ
-càe:cafe
-neg:nè
-pas:pass
-tét:test
+trg:trường
+tt:thông tin
+ttu:tương tự
+tviet:tiếng Việt
+txuan:thanh xuân
 ưeb:web
 ưhat:what
+ủl:URL
+unesco:UNESCO
+url:URL
 ưtf:wtf
+v:và
+vc:việc
+vcb:Vietcombank
+vd:ví dụ
+vid:video
+vip:VIP
+vk:vợ
+vl:bạn có chắc là sẽ dùng từ này không? Hãy bình tĩnh và chọn option khác nếu có thể.
+vpb:VPBank
+vs:với
+vsinh:vệ sinh
+vtv:VTV
+web:website
+wifi:WiFi
+x:ích
+xd:xây dựng
+xdap:xe đạp
+xhoi:xã hội
+xjn:xịn
+xl:xin lỗi
+xmay:xe máy
+xx:yt
+yt:youtube
+z:zậy
+zzz:
