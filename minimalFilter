@@ -380,5 +380,7 @@ voz.vn##.message-attribution-opposite--list.message-attribution-opposite
 
 www.google.com##.ZhtFke
 
+.primary.statistics-widget-item > .content-item > .detail-item, 
+.statistics-widget.finance-widget.visual-widget > .visual-widget-body > .statistics-template-widget > .statistics-body-widget > .success.statistics-widget-item > .content-item > .detail-item,
 ocg.1office.vn##.statistics-widget.finance-widget.visual-widget > .visual-widget-body > .statistics-template-widget > .statistics-header-widget > .content-header > .sub-title-header:style(filter:blur(4px))
 
