@@ -384,3 +384,65 @@ www.google.com##.ZhtFke
 .statistics-widget.finance-widget.visual-widget > .visual-widget-body > .statistics-template-widget > .statistics-body-widget > .success.statistics-widget-item > .content-item > .detail-item,
 ocg.1office.vn##.statistics-widget.finance-widget.visual-widget > .visual-widget-body > .statistics-template-widget > .statistics-header-widget > .content-header > .sub-title-header:style(filter:blur(4px))
 
+! 2024-04-08 https://translate.google.com
+translate.google.com##.VlPnLc
+translate.google.com##.OwOEge
+translate.google.com##.nidPne
+translate.google.com##.ZTPlmc
+translate.google.com##.XExWNc
+translate.google.com##.BvMHHf
+translate.google.com##.vNTDhc
+
+! 2024-04-08 https://success.outsystems.com
+success.outsystems.com##.main-menu__container__background
+success.outsystems.com###b3-b1-RightContent
+success.outsystems.com###b3-b1-LeftContent
+success.outsystems.com###b3-b1-MainContent:style(width:100%!important)
+success.outsystems.com##.main-footer
+success.outsystems.com##.btn-edit.btn-s.btn-icon.btn-inverted.os-btn-dark
+
+! 2024-04-09 https://success.outsystems.com
+success.outsystems.com###b2-b1-RightContent
+success.outsystems.com###b2-b1-LeftContent
+success.outsystems.com###b2-b1-MainContent:style(width:100%!important)
+
+! 2024-04-09 https://www.onlinegdb.com
+www.onlinegdb.com###left-component
+www.onlinegdb.com###right-component:style(left: 0!important)
+www.onlinegdb.com###control-bar > .btn-warning.btn
+
+! 2024-04-10 https://www.bachhoaxanh.com
+www.bachhoaxanh.com##.rightcate
+www.bachhoaxanh.com##.menu-knh
+www.bachhoaxanh.com##.leftcate:style(width: 100vw!important)
+www.bachhoaxanh.com##footer
+www.bachhoaxanh.com###boxcomment
+www.bachhoaxanh.com##.us-ca
+www.bachhoaxanh.com##productbox
+www.bachhoaxanh.com###votedRating
+www.bachhoaxanh.com##.newscare
+www.bachhoaxanh.com##.locationContainer
+
+! 2024-04-10 https://online2pdf.com
+online2pdf.com##.header
+online2pdf.com##.adboxcontainer
+online2pdf.com##div.main_section
+online2pdf.com###main_content > table > tbody > tr:nth-of-type(2) > td
+online2pdf.com##.main > table > tbody > tr > td:nth-of-type(2)
+online2pdf.com##.feedback_info
+online2pdf.com##.c01929.c01919 > div > table
+online2pdf.com##.multiple_files_text
+online2pdf.com###menu > table > tbody > tr > td > .c01919 > [href="/faq"]
+online2pdf.com###menu > table > tbody > tr > td > .c01919 > [href="/feedback"]
+online2pdf.com###menu > table > tbody > tr > td > .c01919 > [href="/donation"]
+online2pdf.com###menu > table > tbody > tr > td > .c01919 > [href="/features"]
+online2pdf.com###menu > table > tbody > tr > td > .c01919 > [href="/contact"]
+online2pdf.com###menu > table > tbody > tr > td > .c01919:style(text-align:left!important)
+online2pdf.com##.dragdrop_text
+
+! 2024-04-10 https://www.reddit.com
+www.reddit.com###left-sidebar-container
+www.reddit.com##span.contents > .m\:block.hidden
+www.reddit.com###right-sidebar-container
+www.reddit.com##.w-full.masthead
+
