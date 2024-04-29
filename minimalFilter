@@ -532,3 +532,31 @@ vn.world.taobao.com##.tb-footer-with-logo.tb-footer
 vn.world.taobao.com##.site-nav.rax-view-v2
 vn.world.taobao.com##.collect-find-container.rax-view-v2
 
+! 2024-04-24 https://www.pcworld.com
+www.pcworld.com##.secondaryNav-social-wrap
+www.pcworld.com##.affiliate-disclaimer
+www.pcworld.com###secondaryNav
+
+! 2024-04-24 https://shopee.vn
+shopee.vn##.header-with-search__search-section > div
+shopee.vn##.navbar.container > div
+shopee.vn##.navbar:style(align-items: end!important; flex-direction: column-reverse;)
+
+! 2024-04-26 https://www.instagram.com
+www.instagram.com##.xzkaem6.x1n2onr6
+www.instagram.com##._abcm._aa5t._abck._abci._abcg._abcf._abab._ab9-._abby._abbg._ab9p._ab9m._ab9h._ab9c._ab99._ab94._ab8w._ab8q
+
+! 2024-04-26 https://shopee.vn
+shopee.vn##.VCnXyn.BGng4e
+
+! 2024-04-28 https://hacom.vn
+hacom.vn###hoamairight
+hacom.vn###js-fixed-banner-container-2023
+hacom.vn###hoadaoleft
+
+! 2024-04-28 https://laptopworld.vn
+laptopworld.vn##.top > .container
+
+! 2024-04-28 https://voz.vn
+voz.vn##.notice-content
+
