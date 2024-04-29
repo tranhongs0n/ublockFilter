@@ -453,3 +453,82 @@ ocg.1office.vn##.social-filters
 ocg.1office.vn##.post-actions > .post-actions-top
 ocg.1office.vn##.social-status-form
 
+! 2024-04-21 https://www.thegioididong.com
+www.thegioididong.com##.col_topic
+www.thegioididong.com##.col_content:style(width:100%!important)
+www.thegioididong.com##.search_ask
+www.thegioididong.com##.banner-media
+www.thegioididong.com##.rowuser
+www.thegioididong.com##.area_user
+||cdn.tgdd.vn/2024/03/banner/*$image
+www.thegioididong.com###bannerbody > .banner-detail
+www.thegioididong.com##.footer
+||cdn.tgdd.vn/2024/03/banner/*$image
+www.thegioididong.com##.banner-detail
+www.thegioididong.com##.askrelate
+www.thegioididong.com##.titlerelate
+www.thegioididong.com##.kwLst
+www.thegioididong.com##.boxRatingNew
+www.thegioididong.com##.boxpromote
+www.thegioididong.com##.header__main
+www.thegioididong.com##.header__listtop
+www.thegioididong.com##.header__top:style(padding-bottom:12px!important)
+
+! 2024-04-21 https://www.reddit.com
+www.reddit.com##.flex-grid--main-container-card.right-sidebar-xs:style(max-width:100%!important)
+
+! 2024-04-21 https://laptopleson.com
+laptopleson.com##.elementor-element-12eb16a.elementor-element.elementor-inner-column.elementor-col-50.elementor-column > .elementor-element-populated.elementor-column-wrap > .elementor-widget-wrap
+
+! 2024-04-24 https://trangtuyensinh24h.com
+trangtuyensinh24h.com##.post-sidebar
+trangtuyensinh24h.com###button-contact-vr
+trangtuyensinh24h.com##.chat_fb
+
+! 2024-04-25 https://cellphones.com.vn
+cellphones.com.vn###bannerTopHead
+cellphones.com.vn##.affix.block-breadcrumbs
+cellphones.com.vn##.button__special-promotion-banner
+cellphones.com.vn##.exclusive-price-block
+
+! 2024-04-25 https://app.clickup.com
+app.clickup.com##.ng-star-inserted.cu3-content-assistant-global-toolbar-item-toggle
+app.clickup.com##.ng-star-inserted.ng-tns-c3203968968-3.cu-hidden-print
+app.clickup.com##.cu-manager2__container_v3:style(height:100vh!important)
+app.clickup.com##cu-location-header-lazy-wrapper.ng-star-inserted
+app.clickup.com##.ng-star-inserted.widget-no-drag-area.cu-task-list-header-settings__add-button
+app.clickup.com##.ng-star-inserted.nav-menu-item__new-tab_task.nav-menu-item_grouped-btn.nav-menu-item
+app.clickup.com##.cu-dropdown__toggle.ng-tns-c2273354013-12.cu-simple-bar__workspace-title
+app.clickup.com##.task-summary-and-update-button
+app.clickup.com##.ng-tns-c3045091887-121.min-width
+app.clickup.com##.ng-star-inserted.list-item.cu-dropdown-list-item
+app.clickup.com##.ng-star-inserted.ng-tns-c3203968968-4.cu-hidden-print
+app.clickup.com##.cu2-views-bar__controller-btn_toggle.cu2-views-bar__controller-btn
+app.clickup.com##.cu-simple-bar__bottom
+
+! 2024-04-25 https://www.facebook.com
+www.facebook.com##.xzd29fr.x1lku1pv.x5ib6vp.x18d9i69.xc73u3c.xexx8yu.xt55aet.x1c4vz4f.xknmibj.x1q0g3np.xozqiw3.x6s0dn4.x1qughib.xeuugli.xs83m0k.x1r8uery.x78zum5.x1ja2u2z.x1n2onr6.x9f619
+www.facebook.com##.xwib8y2.x1y1aw1k.x1pi30zi.x1swvt13.xcud41i.x139jcc6
+www.facebook.com##.x18d9i69.xz9dl7a.x1ja2u2z.x1n2onr6.x9f619
+www.facebook.com##.xzd29fr:style(padding-bottom: 10px;)
+www.facebook.com###\:r15c\: > .x10wlt62.x6ikm8r.xmz0i5r.x78zum5:style(height: 100%!important;)
+www.facebook.com##li.x1gz44f.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2
+
+! 2024-04-25 https://voz.vn
+||data.voz.vn/avatars/*$image
+voz.vn##.message-avatar
+voz.vn##.message-user:style(padding-top:12px)
+voz.vn##.message-footer
+
+! 2024-04-25 https://shopee.vn
+shopee.vn##.p-2.flex-col.flex.border-box.shopee_itemcard__info:style(text-transform: lowercase)
+shopee.vn##.header-with-search__search-section > div
+shopee.vn##.navbar.container > div
+shopee.vn##.navbar:style(flex-direction: column-reverse!important; align-items: end!important)
+shopee.vn##.shopee-searchbar-input__input::placeholder
+
+! 2024-04-25 https://vn.world.taobao.com
+vn.world.taobao.com##.tb-footer-with-logo.tb-footer
+vn.world.taobao.com##.site-nav.rax-view-v2
+vn.world.taobao.com##.collect-find-container.rax-view-v2
+
