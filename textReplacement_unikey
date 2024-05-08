@@ -1,42 +1,54 @@
 ;DO NOT DELETE THIS LINE*** version=1 ***
+;Viết hoa
+atm:ATM
+bcc:BCC
+bts:BTS
+css:CSS
+ceo:CEO
+dpi:DPI
+ghtk:GHTK
+ielts:IELTS
+imax:IMAX
+fyi:FYI
+fa:FA
+iq:IQ
+eq:EQ
+dslr:DSLR
+html:HTML
+iot:IoT
+vip:VIP
+rfid:RFID
+outsystems:OutSystems
+shopee:Shopee
+unesco:UNESCO
+url:URL
+wifi:WiFi
+vtv:VTV
+sso:SSO
+ipad:iPad
+iphone:iPhone
+kpi:KPI
+kfc:KFC
+js:JavaScript
+api:API
+lgbt:LGBT
+
+
+;Viết tắt
 <-:←
 ->:→
-2d:2D
-3d:3D
 a:anh
-adhd:ADHD
-aids:AIDS
-asap:ASAP
-atm:ATM
 b:bạn
-baoh:bao giờ
-bbc:BBC
-bcc:BCC
-bdich:biên dịch
-bdsm:BDSM
 bh:bây giờ
 bth:bình thường
-bthan:bản thân
-bts:BTS
-bve:bảo vệ
-bvien:bệnh viện
 c:chị
 càe:cafe
-ce:các em
-ceo:CEO
-cfo:CFO
-ch:chờ
-chs:chơi
-chx:chỗ
 ck:chuyển khoản
 cmt:comment
 cn:chủ nhật
 cnang:chức năng
-cnn:CNN
 cno:chúng nó
 cntt:công nghệ thông tin
-cso:cửa sổ
-css:CSS
 cta:chúng ta
 ctay:chia tay
 ctrinh:chương trình
@@ -44,86 +56,51 @@ ctuan:cuối tuần
 cty:công ty
 cvien:công viên
 cx:cũng
+db:database
 dc:được
 đc:được
-dd:Đống Đa
-dhl:DHL
-diy:DIY
-dkien:điều kiện
+dk:điều kiện
+đk:điều kiện
 dky:đăng ký
 đky:đăng ký
-dm:bạn có chắc là sẽ dùng từ này không? Hãy bình tĩnh và chọn option khác nếu có thể.
-dna:DNA
-dnhap:đăng nhập
-dpi:DPI
 ds:danh sách
-dslr:DSLR
 dt:điện thoại
 đt:điện thoại
 e:em
-fa:FA
 fb:facebook
-fifa:FIFA
-fim:phim
-fyi:FYI
 gg:google
 ggm:google maps
-ghtk:GHTK
-gmo:GMO
-gsm:GSM
 h:giờ
-h&m:H&M
-hcm:Hồ Chí Minh
-hn:Hà Nội
 hnay:hôm nay
 hphuc:hạnh phúc
 hqua:hôm qua
-html:HTML
 ib:inbox
-ielts:IELTS
-imax:IMAX
-iot:IoT
-ipad:iPad
-iphone:iPhone
-iq:IQ
 j:gì
 jp:japan
-js:JavaScript
 jz:gì zậy
 k:không
 kb:không biết
-kfc:KFC
 ko:không
 kp:không phải
 kpha:khám phá
-kpi:KPI
 kte:kinh tế
 kthuat:kỹ thuật
 ktra:kiểm tra
 ktx:ký túc xá
-l:là
 lm:làm
 lq:liên quan
 ltrinh:lập trình
 mbb:MBBank
-mck:MCK
 mk:mình
 mkt:marketing
 mn:mọi người
 mqh:mối quan hệ
 ms:mới
 n:nó
-nato:NATO
-nb:Ninh Bình
-nba:NBA
 nc:nước
 nch:nói chuyện
-neg:nè
 ng:người
-ngdung:người dùng
-nghang:ngân hàng
 ngta:người ta
-nhx:những
 nmai:ngày mai
 ns:nói
 nt:nhắn tin
@@ -131,14 +108,6 @@ ntn:như thế nào
 nx:nữa
 ny:người yêu
 o:ông
-ỏ:hoặc
-oem:OEM
-offl:offline
-onl:online
-p:phải
-pas:pass
-pdich:phiên dịch
-pkham:phòng khám
 pls:please
 psw:mật khẩu
 pt:phát triển
@@ -147,16 +116,12 @@ qly:quản lý
 qtrong:quan trọng
 r:rồi
 rep:reply
-rfid:RFID
-s:sao
 sd:sử dụng
 sdt:số điện thoại
 sđt:số điện thoại
-shopee:Shopee
 smai:sáng mai
 sn:sinh nhật
 sr:sorry
-sso:SSO
 stk:số tài khoản
 t2:thứ 2
 t3:thứ 3
@@ -177,31 +142,18 @@ tn:tin nhắn
 tnay:tối nay
 tp:thành phố
 tqua:tối qua
-tr:trời
 trc:trước
 trg:trường
 tt:thông tin
 ttu:tương tự
 tviet:tiếng Việt
 txuan:thanh xuân
-ưeb:web
-ưhat:what
-ủl:URL
-unesco:UNESCO
-url:URL
-ưtf:wtf
-v:và
 vc:việc
 vcb:Vietcombank
 vd:ví dụ
 vid:video
-vip:VIP
 vk:vợ
-vl:bạn có chắc là sẽ dùng từ này không? Hãy bình tĩnh và chọn option khác nếu có thể.
 vpb:VPBank
-vtv:VTV
-web:website
-wifi:WiFi
 xd:xây dựng
 xdap:xe đạp
 xhoi:xã hội
@@ -209,4 +161,28 @@ xl:xin lỗi
 xmay:xe máy
 yt:youtube
 z:zậy
-outsystems:OutSystems
+zl:zalo
+
+
+;Banned
+dm:***
+đm:***
+vl:***
+vcc:***
+bitch:***
+cặc:***
+địt:***
+đụ:***
+fuck:***
+fucked:***ed
+shit:***
+sml:***
+tml:***
+vcl:***
+
+;Vị trí địa lý
+hcm:Hồ Chí Minh
+hn:Hà Nội
+nb:Ninh Bình
+nd:Nam Định
+bd:Bình Dương
