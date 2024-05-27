@@ -651,5 +651,103 @@ groq.com##footer:style(position: absolute;right: 0px;)
 
 ! 2024-05-19 https://app.clickup.com
 app.clickup.com##button[data-test="task-comment__summarize-thread"]
+
+! 2024-04-29 https://chat.zalo.me
+chat.zalo.me##.tds-banner-download__container
+
+! 2024-05-02 https://hellobacsi.com
+hellobacsi.com##.article-desktop-ad-container
+hellobacsi.com##.no-replace-click
+hellobacsi.com##.kVMMSA.sc-5864ecd3-0
+hellobacsi.com##.hTNnXa.sc-c41e0b28-1
+hellobacsi.com###hhg-comp-popup-wrapper
+hellobacsi.com##.noscroll:style(overflow:auto!important)
+hellobacsi.com##.action-bar
+hellobacsi.com##.mantine-ProductsWidget-root
+hellobacsi.com##.subot--container
+
+! 2024-05-02 https://poe.com
+poe.com##.ChatMessagesView_emptyView__HqDf7, .ChatMessagesView_infiniteScroll__vk3VX:style(width: 90%!important)
+
+! 2024-05-02 https://www.pinterest.com
+www.pinterest.com##.Hsu.iyn.zI7.p6V.ojN.jzS.imm.fte.fev.dxm._he.PKX.Lej.LCN.KS5.Jea
+
+! 2024-05-02 https://www.facebook.com
+www.facebook.com##.xh8yej3.x1n2onr6.x78zum5:has-text(Reels)
+
+! 2024-05-03 https://ocgtechnologyjsc-dev1.outsystemsenterprise.com
+ocgtechnologyjsc-dev1.outsystemsenterprise.com##.sc-layout-login-left
+ocgtechnologyjsc-dev1.outsystemsenterprise.com##.sc-layout-login-right:style(width:100%!important)
+
+! 2024-05-05 https://shopee.vn
+shopee.vn##.fkIi86:style(text-transform: lowercase)
+
+! 2024-05-09 https://twitter.com
+twitter.com##.r-yz1j6i.r-qo02w8.r-l5o3uw.css-175oi2r
+
+! 2024-05-09 https://cobusgreyling.medium.com
+cobusgreyling.medium.com##.fi.cn.q.ab.wq.wp.wo.wn.wm.wl.v.wk.t.wj
+
+! 2024-05-09 https://medium.com
+medium.com##.fi.cn.q.ab.vm.vl.vk.vj.vi.vh.v.vg.t.vf
+medium.com##.fi.cn.q.ab.tz.ty.tx.tw.tv.tu.v.tt.t.ts
+
+! 2024-05-13 https://app.clickup.com
+app.clickup.com##.ng-tns-c3274804168-0
+
+! 2024-05-13 https://chat.zalo.me
+chat.zalo.me##.w100.flx-al-c.flx.truncate.conv-item-body__main
+chat.zalo.me##.animated.fadeIn, .animated.fadeInImageShow, .animated.fadeInShort, .tab-main .animated.tab-unread:style(-webkit-animation-duration: 0s!important;    animation-duration: 0s!important;)
+chat.zalo.me##.animated, .animated.zoomIn, .animated.zoomOut:style(    -webkit-animation-duration: 0s!important;    animation-duration: 0s!important;)
+chat.zalo.me##.zavatar:style(filter:blur(1px))
+
+! 2024-05-13 https://medium.com
+medium.com##.fi.cn.q.ab.wg.wf.we.wd.wc.wb.v.wa.t.vz
+
+! 2024-05-13 https://groq.com
+groq.com##div.h-16.items-center.grid-cols-3.grid:nth-of-type(1)
+groq.com##div.h-16.items-center.grid-cols-3
+groq.com##.md\:justify-center.md\:col-start-2.md\:col-span-4.z-10.items-center.md\:flex-col.flex.max-w-\[900px\].overflow-auto.flex-col.h-full.w-full:style(width:100vw!important)
+
+! 2024-05-13 https://thanhnien.vn
+thanhnien.vn##.detail__sticky
+thanhnien.vn##.detail__cmain-sub
+thanhnien.vn##div.social-top
+
+! 2024-05-14 https://vnexpress.net
+vnexpress.net##.social_pin
+vnexpress.net##.sidebar-2
+vnexpress.net##.button-adblock
+vnexpress.net##.top-detail.page-detail.section > .container > .sidebar-1:style(max-width:100%!important)
+
+! 2024-05-15 https://int.japanesetaste.com
+int.japanesetaste.com##.product-recommendations
+
+app.clickup.com##.cu-task-view__inner.layout-v3[_ngcontent-ng-c4245343300]:not(.embed-mode):style(height: 100vh!important; top: 0px!important;)
+
+! 2024-05-16 https://shopeefood.vn
+shopeefood.vn##.item-restaurant-img.col-auto
+shopeefood.vn##.txt-right.adding-food-cart.col-auto > .btn-adding
+shopeefood.vn##.old-price
+
+! 2024-05-16 https://poe.com
+poe.com##.BotListItem_botDescription__9V_Sc
+
+! 2024-05-16 https://groq.com
+groq.com##.p-1.gap-1.items-center.justify-center.flex-col.flex
+
+! 2024-05-16 https://www.youtube.com
+www.youtube.com###chat-container
+
+! 2024-05-19 https://groq.com
+groq.com##.max-w-\[900px\]:style(max-width: 100%!important;)
+groq.com##.grid:style(display: block!important;)
+groq.com##footer:style(position: absolute;right: 0px;)
+
+! 2024-05-19 https://app.clickup.com
+app.clickup.com##button[data-test="task-comment__summarize-thread"]
+app.clickup.com##button[class="task-comment-ai-button-with-label ng-star-inserted"]
+
+
 app.clickup.com##button[class="task-comment-ai-button-with-label ng-star-inserted"]
 
