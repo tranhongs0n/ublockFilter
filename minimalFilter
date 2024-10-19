@@ -313,45 +313,6 @@ www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
 www.youtube.com##.ytd-notification-topbar-button-renderer.style-scope
 www.youtube.com###country-code
 www.youtube.com###footer
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
-www.youtube.com##.guide-icon.style-scope.ytd-guide-entry-renderer
-www.youtube.com###movie_player > .ytp-chrome-top > .ytp-chrome-top-buttons
-www.youtube.com##.ytp-fullerscreen-edu-chevron
-www.youtube.com###movie_player > .ytp-chrome-bottom > .ytp-chrome-controls > .ytp-right-controls > .ytp-button.ytp-subtitles-button
-www.youtube.com##.ytp-button.ytp-miniplayer-button
-www.youtube.com###movie_player > .ytp-chrome-bottom > .ytp-chrome-controls > .ytp-right-controls > .ytp-button.ytp-size-button
-www.youtube.com##a.bold.yt-formatted-string.style-scope.yt-simple-endpoint
-www.youtube.com###description-inline-expander > .ytd-watch-metadata.style-scope
-www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
-www.youtube.com##.ytd-watch-metadata.style-scope > .ytd-menu-renderer.style-scope.top-level-buttons
-www.youtube.com###actions-inner > .ytd-watch-metadata.style-scope
-www.youtube.com###owner-sub-count
-www.youtube.com###action-menu
-www.youtube.com###toolbar
-www.youtube.com###action-buttons
-www.youtube.com##.ytd-compact-video-renderer.style-scope.badges
-www.youtube.com##ytd-badge-supported-renderer.ytd-channel-name.style-scope
-www.youtube.com##ytd-compact-video-renderer:style(margin-top: 0px!important; margin-bottom: 16px)
-www.youtube.com##.use-ellipsis.ytd-item-section-renderer.style-scope
-www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
-www.youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(/Your clips|Your videos|Downloads|Shorts/)
-www.youtube.com###content-icon > yt-icon.ytd-compact-link-renderer.style-scope
-www.youtube.com##.ytd-toggle-theme-compact-link-renderer.style-scope.content-icon > .ytd-toggle-theme-compact-link-renderer.style-scope
-www.youtube.com##yt-multi-page-menu-section-renderer.ytd-multi-page-menu-renderer.style-scope:nth-of-type(2)
-www.youtube.com##yt-multi-page-menu-section-renderer.ytd-multi-page-menu-renderer.style-scope:nth-of-type(5)
-www.youtube.com##yt-formatted-string.ytd-account-item-renderer.style-scope:nth-of-type(3)
-www.youtube.com##yt-formatted-string.ytd-account-item-renderer.style-scope:nth-of-type(2)
-
-www.youtube.com##ytd-account-item-renderer[thumbnail-size="48"]:style(--paper-item-icon-width: 30px!important; --paper-item-min-height: 45px!important;)
-www.youtube.com##.no-transition.ytd-account-item-renderer.style-scope > .yt-img-shadow.style-scope:style(max-height: 20px!important; max-width: 20px!important;)
-www.youtube.com##ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-account]:style(display:none!important)
-
-www.youtube.com##ytd-compact-playlist-renderer.ytd-item-section-renderer.style-scope > .ytd-compact-playlist-renderer.style-scope
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer.style-scope:has-text(/YouTube Music|Downloads|Shorts/)
 
 
 
@@ -641,8 +602,6 @@ poe.com##.BotListItem_botDescription__9V_Sc
 ! 2024-05-16 https://groq.com
 groq.com##.p-1.gap-1.items-center.justify-center.flex-col.flex
 
-! 2024-05-16 https://www.youtube.com
-www.youtube.com###chat-container
 
 ! 2024-05-19 https://groq.com
 groq.com##.max-w-\[900px\]:style(max-width: 100%!important;)
@@ -736,8 +695,7 @@ poe.com##.BotListItem_botDescription__9V_Sc
 ! 2024-05-16 https://groq.com
 groq.com##.p-1.gap-1.items-center.justify-center.flex-col.flex
 
-! 2024-05-16 https://www.youtube.com
-www.youtube.com###chat-container
+
 
 ! 2024-05-19 https://groq.com
 groq.com##.max-w-\[900px\]:style(max-width: 100%!important;)
