@@ -709,3 +709,61 @@ app.clickup.com##button[class="task-comment-ai-button-with-label ng-star-inserte
 
 app.clickup.com##button[class="task-comment-ai-button-with-label ng-star-inserted"]
 
+! Sep 26, 2024 https://voz.vn
+voz.vn##.bbImageWrapper:style(max-width:250px!important)
+
+! Oct 6, 2024 https://forum.gocmod.com
+forum.gocmod.com##[src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-lua61kdx7m6pd9.webp"]
+
+! Oct 15, 2024 https://aistudio.google.com
+aistudio.google.com##.ng-tns-c3173799720-1.external-links.nav-item-container
+aistudio.google.com##.ng-star-inserted.ng-tns-c3173799720-1.disclaimer-container
+
+! Oct 17, 2024 https://aistudio.google.com
+aistudio.google.com##.ng-tns-c3712608880-1.external-links.nav-item-container
+aistudio.google.com##.ng-star-inserted.ng-tns-c3712608880-1.disclaimer-container
+
+! Oct 18, 2024 https://aistudio.google.com
+aistudio.google.com##.ng-tns-c2023665138-1.external-links.nav-item-container
+aistudio.google.com##.ng-star-inserted.ng-trigger-fadeInOut.ng-trigger.ng-tns-c2023665138-1.disclaimer
+
+! Oct 19, 2024 https://www.youtube.com
+www.youtube.com##ytd-button-renderer.ytd-masthead
+www.youtube.com##.sbib_c
+www.youtube.com###reply-button-end
+www.youtube.com###action-menu
+www.youtube.com##.ytd-download-button-renderer
+www.youtube.com##yt-button-view-model.ytd-menu-renderer
+www.youtube.com##ytd-compact-video-renderer:style(margin-bottom: 30px)
+www.youtube.com###metadata-line
+www.youtube.com##h3.ytd-compact-video-renderer:style(height: 76px)
+www.youtube.com###video-title.ytd-compact-video-renderer:style(overflow: visible!important)
+www.youtube.com##.badges
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
+
+! Oct 20, 2024 https://www.youtube.com
+www.youtube.com###button-shape > .yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com###toolbar
+www.youtube.com###published-time-text
+
+! Nov 2, 2024 https://www.youtube.com
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+
+! Nov 4, 2024 http://tratu.soha.vn
+tratu.soha.vn###p-personal
+tratu.soha.vn###sidebar
+
+! Nov 4, 2024 https://www.oxfordlearnersdictionaries.com
+www.oxfordlearnersdictionaries.com##.responsive_entry_center_right
+www.oxfordlearnersdictionaries.com###ox-header
+www.oxfordlearnersdictionaries.com##.entry-header
+www.oxfordlearnersdictionaries.com###ring-links-box
+www.oxfordlearnersdictionaries.com##.oup-footer
+
+! Nov 4, 2024 http://tratu.soha.vn
+tratu.soha.vn###footer
+tratu.soha.vn##.box_search > div:nth-of-type(4)
+tratu.soha.vn##.portlet
+
