@@ -7,3 +7,9 @@ www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--i
 www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##.ytd-compact-video-renderer.style-scope.badges
 www.youtube.com##.ytd-badge-supported-renderer
+www.youtube.com###footer
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Shorts|YouTube Music/)
+
