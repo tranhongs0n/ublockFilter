@@ -1,0 +1,9 @@
+www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
+www.youtube.com###voice-search-button
+www.youtube.com##.ytSearchboxComponentYtdTextInputAssistantWrapper
+www.youtube.com###action-menu
+www.youtube.com###actions .yt-spec-button-shape-next__button-text-content
+www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-leading .yt-spec-button-shape-next__icon:style(  margin-right: 0px!important; margin-left: 0px!important;)
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##.ytd-compact-video-renderer.style-scope.badges
+www.youtube.com##.ytd-badge-supported-renderer
