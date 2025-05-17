@@ -148,4 +148,95 @@ aistudio.google.com##.turn-footer
 aistudio.google.com##ms-code-block .disclaimer
 
 
+!*********************************************************************
+! SHOPEE VIETNAM (shopee.vn)
+!*********************************************************************
 
+!---------------------------------------------------------------------
+! POPUP BANNERS & OVERLAYS
+!---------------------------------------------------------------------
+
+! Hide general popup banner container
+shopee.vn##shopee-banner-popup-stateful
+
+! Restore page scrolling if a popup tries to disable it
+shopee.vn##.shopee-no-scroll:style(overflow: auto!important)
+
+!---------------------------------------------------------------------
+! NAVIGATION BAR (TOP BAR)
+!---------------------------------------------------------------------
+
+! Hide generic navbar element (potentially language/country selector or similar)
+shopee.vn##._J5NJU
+
+! Hide notifications icon/link in navbar
+shopee.vn##li.navbar__link--tappable.navbar__link--hoverable.navbar__link.navbar__link--notification
+
+! Hide help link in navbar
+shopee.vn##.navbar__link--help.navbar__link--hoverable.navbar__link--tappable.navbar__link
+
+! Hide another generic navbar element (potentially user account related or other links)
+shopee.vn##.zZbJYF
+
+! Hide search bar placeholder text
+shopee.vn##.shopee-searchbar-input__input::placeholder
+
+!---------------------------------------------------------------------
+! HOMEPAGE BANNERS & CATEGORIES (Below Navbar)
+!---------------------------------------------------------------------
+
+! Hide "hotword" banner section (promotional keywords/trends)
+shopee.vn##.section-banner-hotword--no-skin
+
+! Hide homepage category list section
+shopee.vn##.home-category-list
+
+!---------------------------------------------------------------------
+! FLASHSALE & MALL SECTIONS (Homepage)
+!---------------------------------------------------------------------
+
+! Hide flash sale section container
+shopee.vn##.R3bOnT
+
+! Hide "Shopee Mall" section on homepage
+shopee.vn##.homepage-mall-section
+
+! Hide generic section header (often used for Flashsale, Mall, etc.)
+shopee.vn##.shopee-header-section--simple
+
+!---------------------------------------------------------------------
+! SUGGESTION ITEMS / PRODUCT CARDS (Miscellaneous small elements)
+! These filters target very specific, style-based elements and might be fragile.
+!---------------------------------------------------------------------
+
+! Hide small inline badge/label on suggestion items (e.g., "Ad", "Sponsored")
+shopee.vn##.h-sp14.inline-block.mb-0\.5.mr-0\.5
+
+! Hide row of small icons or tags on suggestion items
+shopee.vn##.mb-2.overflow-hidden.items-center.text-sp10.h-5.space-x-1.flex.box-border
+
+! Hide promotional badge/tag on suggestion items (often pink, e.g., discount)
+shopee.vn##.z-30.right-0.top-0.absolute.text-xs\/sp14.px-1.py-0\.5.bg-shopee-pink.font-medium.text-shopee-primary
+
+! Hide positioned action button or overlay icon on suggestion items (bottom-right)
+shopee.vn##.pb-1.pr-1.flex.z-30.right-0.bottom-0.absolute
+
+! Hide overlay or background element on suggestion items (full width, bottom)
+shopee.vn##.absolute.bottom-0.left-0.z-10.w-full.w-full.h-full
+
+!---------------------------------------------------------------------
+! MISCELLANEOUS (Site-wide or Uncategorized)
+!---------------------------------------------------------------------
+
+! Hide specific element (observed May 17, 2025)
+shopee.vn##.ciPWrW
+
+!---------------------------------------------------------------------
+! PRODUCT PAGE SPECIFIC ELEMENTS
+!---------------------------------------------------------------------
+
+! Hide specific element on product pages
+shopee.vn##.idmlsn
+
+! Hide another specific element on product pages
+shopee.vn##.feDSnr
