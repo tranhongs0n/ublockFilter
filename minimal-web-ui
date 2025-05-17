@@ -1,0 +1,111 @@
+!---------------------------------------------------------------------
+! YouTube Minimalist Filters
+!---------------------------------------------------------------------
+
+!---------------------------------------------------------------------
+! GENERAL YOUTUBE INTERFACE & MASTHEAD (TOP BAR)
+!---------------------------------------------------------------------
+
+! Hide "Create" button
+www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
+
+! Hide voice search button in the search bar
+www.youtube.com###voice-search-button
+
+! Hide search box assistant/suggestions wrapper
+www.youtube.com##.ytSearchboxComponentYtdTextInputAssistantWrapper
+
+! Hide country code display next to YouTube logo
+www.youtube.com###country-code
+
+! Hide notifications button (bell icon) in masthead
+www.youtube.com##ytd-masthead ytd-notification-topbar-button-renderer
+
+!---------------------------------------------------------------------
+! SIDEBAR (GUIDE)
+!---------------------------------------------------------------------
+
+! Hide "Shorts" link in main sidebar
+www.youtube.com##ytd-guide-section-renderer ytd-guide-entry-renderer:has-text(Shorts)
+
+! Hide 3rd main sidebar section (e.g., Explore, Subscriptions if not logged in)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+
+! Hide 4th main sidebar section (e.g., More from YouTube)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+
+! Hide 5th main sidebar section (e.g., Settings, Help, Feedback)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
+
+! Hide sidebar footer (links like About, Press, Copyright, etc.)
+www.youtube.com###footer
+
+! Hide "Shorts" link in mini-sidebar (when main sidebar is collapsed)
+www.youtube.com##.ytd-mini-guide-entry-renderer:has-text(/Short/)
+
+!---------------------------------------------------------------------
+! HOMEPAGE
+!---------------------------------------------------------------------
+
+! Hide "Shorts" shelves/sections on the homepage
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(/Short/)
+
+!---------------------------------------------------------------------
+! WATCH PAGE (VIDEO PLAYER PAGE)
+!---------------------------------------------------------------------
+
+! Hide channel "Join" / "Sponsor" button below video player
+www.youtube.com###sponsor-button
+
+!---------------------------------------------------------------------
+! VIDEO DESCRIPTION AREA
+!---------------------------------------------------------------------
+
+! Hide metadata rows in description (e.g., Game information)
+www.youtube.com##.ytd-metadata-row-container-renderer
+
+! Hide channel information section renderer within description
+www.youtube.com##ytd-video-description-infocards-section-renderer
+
+! Hide specific bold links in description info container (e.g., hashtags, channel mentions)
+www.youtube.com###info-container a.bold.yt-formatted-string.style-scope.yt-simple-endpoint
+
+!---------------------------------------------------------------------
+! COMMENTS SECTION
+!---------------------------------------------------------------------
+
+! Hide comment action menu (three dots menu for report, etc.)
+www.youtube.com###action-menu
+
+! Hide comment "Reply" button
+www.youtube.com###reply-button-end
+
+! Hide comment "Dislike" button
+www.youtube.com###dislike-button
+
+!---------------------------------------------------------------------
+! RECOMMENDATIONS & RELATED VIDEOS
+!---------------------------------------------------------------------
+
+! Hide "Shorts" reel shelves (often in recommendations or end screens)
+www.youtube.com##ytd-reel-shelf-renderer
+
+! Hide badges on compact video renderers (e.g., "New", "Live" on recommended videos in sidebar/up next)
+www.youtube.com##.ytd-compact-video-renderer.badges
+
+! Adjust margin for dismissible elements (layout fix for hidden elements)
+! This might be related to recommended videos or other dismissible content.
+www.youtube.com###dismissible:style(margin-bottom: 16px!important)
+
+! Hide metadata line (views, upload date) for videos in lists/recommendations
+www.youtube.com###metadata-line
+
+!---------------------------------------------------------------------
+! VIDEO PLAYER CONTROLS
+!---------------------------------------------------------------------
+
+! Hide subtitles/CC button in player controls
+www.youtube.com##.ytp-button.ytp-subtitles-button
+
+! Hide miniplayer button in player controls
+www.youtube.com##.ytp-button.ytp-miniplayer-button
