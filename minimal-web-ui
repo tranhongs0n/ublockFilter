@@ -62,6 +62,12 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:ha
 ! Hide channel "Join" / "Sponsor" button below video player
 www.youtube.com###sponsor-button
 
+! Hide actions text
+www.youtube.com##ytd-menu-renderer .yt-spec-button-shape-next__button-text-content
+www.youtube.com##.yt-spec-button-shape-next__icon:style(margin-right: -6px!important)
+
+
+
 !---------------------------------------------------------------------
 ! VIDEO DESCRIPTION AREA
 !---------------------------------------------------------------------
