@@ -1,12 +1,17 @@
 !---------------------------------------------------------------------
-! YouTube Minimalist Filters
+! Custom uBlock Origin Filters
+! Last updated: YYYY-MM-DD (Please update this date)
 !---------------------------------------------------------------------
+
+!*********************************************************************
+! YOUTUBE (www.youtube.com)
+!*********************************************************************
 
 !---------------------------------------------------------------------
 ! GENERAL YOUTUBE INTERFACE & MASTHEAD (TOP BAR)
 !---------------------------------------------------------------------
 
-! Hide "Create" button
+! Hide "Sign In" / other primary masthead buttons
 www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
 
 ! Hide voice search button in the search bar
@@ -61,10 +66,10 @@ www.youtube.com###sponsor-button
 ! VIDEO DESCRIPTION AREA
 !---------------------------------------------------------------------
 
-! Hide metadata rows in description (e.g., Game information)
+! Hide metadata rows in description (e.g., "Music in this video", "Game title")
 www.youtube.com##.ytd-metadata-row-container-renderer
 
-! Hide channel information section renderer within description
+! Hide infocards section renderer within description
 www.youtube.com##ytd-video-description-infocards-section-renderer
 
 ! Hide specific bold links in description info container (e.g., hashtags, channel mentions)
@@ -109,3 +114,38 @@ www.youtube.com##.ytp-button.ytp-subtitles-button
 
 ! Hide miniplayer button in player controls
 www.youtube.com##.ytp-button.ytp-miniplayer-button
+
+!*********************************************************************
+! GOOGLE AI STUDIO (aistudio.google.com)
+! Filters based on observations around May 17, 2025 (as noted by user)
+!*********************************************************************
+
+!---------------------------------------------------------------------
+! GENERAL PAGE LAYOUT & NAVIGATION
+!---------------------------------------------------------------------
+
+! Hide main page header
+aistudio.google.com##.page-header
+
+! Hide top navigation bar
+aistudio.google.com##.top-nav
+
+! Hide general disclaimer container (often at bottom or top of page)
+aistudio.google.com##.disclaimer-container
+
+!---------------------------------------------------------------------
+! CHAT INTERFACE ELEMENTS
+!---------------------------------------------------------------------
+
+! Hide chat turn footer (typically contains like/dislike, copy, feedback icons)
+aistudio.google.com##.turn-footer
+
+!---------------------------------------------------------------------
+! CODE BLOCK ELEMENTS
+!---------------------------------------------------------------------
+
+! Hide disclaimer text within code blocks
+aistudio.google.com##ms-code-block .disclaimer
+
+
+
