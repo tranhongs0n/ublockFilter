@@ -1,248 +1,1110 @@
 !---------------------------------------------------------------------
 ! Custom uBlock Origin Filters
-! Last updated: YYYY-MM-DD (Please update this date)
+! Last updated: YYYY-MM-DD (User to update this)
 !---------------------------------------------------------------------
+
+
+!*********************************************************************
+! SHOPEE (shopee.vn)
+!*********************************************************************
+
+!---------------------------------------------------------------------
+! GLOBAL & COMMON ELEMENTS
+!---------------------------------------------------------------------
+! Hide main banner popup
+shopee.vn##shopee-banner-popup-stateful
+shopee.vn##.VCnXyn.BGng4e
+
+! Restore scrolling when a popup is active
+shopee.vn##.shopee-no-scroll:style(overflow: auto!important)
+
+! Lowercase text on various elements
+shopee.vn##a.navbar-with-more-menu__item:style(text-transform: lowercase)
+shopee.vn##.ne3HDa:style(text-transform: lowercase)
+shopee.vn##.p-2.flex-col.flex.border-box.shopee_itemcard__info:style(text-transform: lowercase)
+shopee.vn##.fkIi86:style(text-transform: lowercase)
+
+
+!---------------------------------------------------------------------
+! HEADER & NAVIGATION
+!---------------------------------------------------------------------
+! Hide left-side elements in the header
+shopee.vn##._20ATCl.v-center.flex
+shopee.vn##.AFNv_2.v-center.flex
+
+! Hide right-side elements (notifications, help)
+shopee.vn##li.navbar__link--tappable.navbar__link--hoverable.navbar__link.navbar__link--notification
+shopee.vn##.navbar__link--help.navbar__link--hoverable.navbar__link--tappable.navbar__link
+
+! Hide header recommendation search terms
+shopee.vn##._2ZS\+XW
+
+! Hide search bar recommendations/filters
+shopee.vn##.header-with-search__search-section > div
+
+! Hide top navigation bar links
+shopee.vn##.navbar.container > div
+
+! Rearrange header layout
+shopee.vn##.navbar:style(flex-direction: column-reverse!important; align-items: end!important)
+shopee.vn##.navbar:style(align-items: end!important; flex-direction: column-reverse;)
+
+! Hide placeholder text in search bar
+shopee.vn##.shopee-searchbar-input__input::placeholder
+
+
+!---------------------------------------------------------------------
+! HOMEPAGE
+!---------------------------------------------------------------------
+! Hide homepage banner and category list
+shopee.vn##.section-banner-hotword--no-skinvn
+shopee.vn##.section-banner-hotword--no-skin
+shopee.vn##.home-category-list
+shopee.vn##.homepage-mall-section
+
+! Hide category section based on search history
+shopee.vn##.shopee-header-section--simple.lNqSit.shopee-header-section
+
+! Hide a section below the fold (may cause issues)
+shopee.vn##.section-below-the-fold > div:nth-of-type(3)
+
+
+!---------------------------------------------------------------------
+! FLASH SALE (FS)
+!---------------------------------------------------------------------
+! Hide sold count on flash sale items
+shopee.vn##.RJ6Vpu.eNmE7o
+! Hide shop badge on flash sale items
+shopee.vn##._03KWvv
+! Hide discount badge on flash sale items
+shopee.vn##.dEw30H
+! Hide flash sale page banner
+shopee.vn##.EQXUaX.container
+! Hide "Buy Now" button on flash sale items
+shopee.vn##._3TIoOR
+
+
+!---------------------------------------------------------------------
+! RECOMMENDATION & PRODUCT CARDS
+!---------------------------------------------------------------------
+! Hide discount tag on item cards
+shopee.vn##.shopee_itemcard__discount_tag_container
+! Hide "Ad" badge on item cards
+shopee.vn##.shopee_itemcard__badge_br_container .shopee_itemcard__badge_ad
+! Hide "Video" badge on item cards
+shopee.vn##.shopee_itemcard__panel .shopee_itemcard__badge_br_container .shopee_itemcard__badge_video
+! Hide image flag/overlay on item cards
+shopee.vn##.shopee_itemcard__panel .shopee_itemcard__image_flag_container .shopee_itemcard__image_flag_wrapper
+
+
+!---------------------------------------------------------------------
+! PRODUCT PAGE
+!---------------------------------------------------------------------
+! Hide the hot sales section
+shopee.vn##.page-product__hot-sales.product-shop-hot-sales
+! Hide the "Report this product" button
+shopee.vn##.YysGiT
+! Hide the Like and Share buttons
+shopee.vn##.TFDXyQ .items-center.justify-center.flex
+! Hide the shipping information section
+shopee.vn##.uVwYBh.KIoPj6.flex
+! Hide the "deal shock" (flash sale) section
+shopee.vn##.yjMlzR
+! Hide the "Pay Later" section
+shopee.vn##section.KIoPj6.flex
+! Hide the "7 day free returns" benefit text
+shopee.vn##.DXQgih.flex-column.flex-auto > div:has-text("7 ngày miễn phí trả hàng")
+! Make product description scrollable
+shopee.vn##.e8lZp3:style(max-height: 450px; overflow: auto!important)
+
+
+!---------------------------------------------------------------------
+! FOOTER
+!---------------------------------------------------------------------
+! Hide footer sections
+shopee.vn##.uZncG4._5mVtqL
+shopee.vn##.Ji_QfP.DFTbCr
+
+
+!*********************************************************************
+! SHOPEEFOOD (shopeefood.vn)
+!*********************************************************************
+! Filters added on 2024-05-16
+! Hide restaurant image
+shopeefood.vn##.item-restaurant-img.col-auto
+! Hide the "Add" button for food items
+shopeefood.vn##.txt-right.adding-food-cart.col-auto > .btn-adding
+! Hide the old (slashed) price
+shopeefood.vn##.old-price
+
+
+!*********************************************************************
+! FACEBOOK & MESSENGER (www.facebook.com, www.messenger.com)
+!*********************************************************************
+
+!---------------------------------------------------------------------
+! GLOBAL & HOMEPAGE
+!---------------------------------------------------------------------
+! Hide the left sidebar
+www.facebook.com##.x9e5oc1.xxzkxad.x7wzq59.x1xzczws.x10wlt62.x6ikm8r.x1u2d2a2.x1t2pt76.xxc7z9f.xnjgh8c.x112wk31.xnp8db0.x1ja2u2z.x9f619
+! Hide the right sidebar (Contacts, Sponsored)
+www.facebook.com##.x1daaz14.xxzkxad.x7wzq59.x10wlt62.x6ikm8r.x1u2d2a2.x1t2pt76.xxc7z9f.xnjgh8c.x112wk31.xnp8db0.x1ja2u2z.x9f619
+! Hide the "Games" icon in the top navigation bar
+www.facebook.com##.x9e5oc1.x1i64zmx.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2
+! Hide "Friends" and "Videos" icons in the top navigation bar
+www.facebook.com##li.x1gz44f.x1i64zmx.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2:nth-of-type(2)
+www.facebook.com##li.x1gz44f.x1i64zmx.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2:nth-of-type(3)
+www.facebook.com##li.x1gz44f.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2
+! Hide the Stories section
+www.facebook.com##.x1g2khh7.x1n2onr6
+! Hide the "Save Password" prompt
+www.facebook.com##.x18vph2k.xbp6ddl.x65f84u.xkw1uh1.xo9bapn.xvue9z.x1gryazu.xat24cr.xkrivgy.xdj266r
+! Hide the "What's on your mind?" post creation box
+www.facebook.com##.x1ceravr.xq1tmr.xvue9z.x193iq5w > div.x1yztbdb
+! Hide corner upload/notification icon
+www.facebook.com##.xixxii4.xds687c.x1ey2m1c
+! Hide login required popup
+www.facebook.com##.xzkaem6.x1n2onr6
+! Hide specific ad images (by alt text)
+www.facebook.com##img[alt*="Đọc Trộm Tin Nhắn"]
+! Hide various feed and UI elements
+www.facebook.com##.xzd29fr.x1lku1pv.x5ib6vp.x18d9i69.xc73u3c.xexx8yu.xt55aet.x1c4vz4f.xknmibj.x1q0g3np.xozqiw3.x6s0dn4.x1qughib.xeuugli.xs83m0k.x1r8uery.x78zum5.x1ja2u2z.x1n2onr6.x9f619
+www.facebook.com##.xwib8y2.x1y1aw1k.x1pi30zi.x1swvt13.xcud41i.x139jcc6
+www.facebook.com##.x18d9i69.xz9dl7a.x1ja2u2z.x1n2onr6.x9f619
+! Adjust container padding
+www.facebook.com##.xzd29fr:style(padding-bottom: 10px;)
+! Adjust container height
+www.facebook.com###\:r15c\: > .x10wlt62.x6ikm8r.xmz0i5r.x78zum5:style(height: 100%!important;)
+
+
+!---------------------------------------------------------------------
+! REELS
+!---------------------------------------------------------------------
+! Hide the Reels and short videos section in the feed
+www.facebook.com##.xquyuld.x10wlt62.x6ikm8r.xh8yej3.xt3gfkd.xu5ydu1.xdney7k.x1qpq9i9.x2bj2ny.x1ja2u2z.x1n2onr6.x9f619 > div > .xh8yej3.x1n2onr6.x78zum5
+! Hide the Share button on Reels
+www.facebook.com##div.x14l7nz5.xzboxd6.x1e56ztr.x1xmf6yo.x193iq5w.x2lah0s.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619:nth-of-type(4) > .x1swf91x.x1uhb9sk.x1afcbsf.__fb-dark-mode > .x193iq5w.x2lah0s.xdt5ytf.x78zum5.x9f619.x1ja2u2z.x1n2onr6 > .x2lwn1j.x1iyjqo2.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619
+! Hide the upload/create button on Reels page
+www.facebook.com##.x1r973d1.x1tk7jg1.x10l6tqk.x67bb7w
+! Hide elements containing the text "Reels"
+www.facebook.com##.xh8yej3.x1n2onr6.x78zum5:has-text(Reels)
+
+
+!---------------------------------------------------------------------
+! POSTS & COMMENTS
+!---------------------------------------------------------------------
+! Hide the Like/Comment/Share interactive bar under posts
+www.facebook.com##.x1xlr1w8.xi81zsa.xt0b8zv.x1a2a7pz.xggy1nq.x1hl2dhg.x16tdsg8.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.xt0psk2.x1ypdohk.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x17r0tee.x1sy0etr.xd10rxx.x1ejq31n.xjbqb8w.x1i10hfl
+! Hide the Share button
+www.facebook.com##div.x1yrsyyn.x10b6aqq.x1h0ha7o.xg83lxy.xs83m0k.x1iyjqo2.x1r8uery.xeuugli.x193iq5w.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619:nth-of-type(3)
+www.facebook.com##.x1uuop16.x1axty5n.x1aj7aux.x1fqkajt > .xifccgj.x4cne27.x1iorvi4.xjkvuk6.x1q0g3np.xozqiw3.x1qjc9v5.x1qughib.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6.x9f619 > div.x1yrsyyn.x10b6aqq.xs83m0k.x1iyjqo2.x1r8uery.xeuugli.x193iq5w.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619:nth-of-type(3)
+! Hide the post interaction count (likes, comments, shares)
+www.facebook.com##.xdppsyt.xkhd6sd.x1a8lsjc.x4uap5.x889kno.x1d52u69.xat24cr.xktsk01.xdj266r.xvq8zen.x13a6bvl.x6prxxf.x78zum5.xi81zsa.x6s0dn4 > .xifccgj.x4cne27.xbmpl8g.xykv574.x1q0g3np.xozqiw3.x1qjc9v5.x1qughib.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6.x9f619 > div.x1yrsyyn.x10b6aqq.x16hj40l.xsyo7zv.xeuugli.x193iq5w.x2lah0s.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619
+! Hide the "Like" text label on the like button
+www.facebook.com##.xuxw1ft.xlyipyv.x10wlt62.x6ikm8r.x1mh8g0r.xrbpyxo.x2bj2ny.xt0b8zv > span > .x1e558r4
+! Hide spam comments containing "shopee"
+www.facebook.com##.x1a2a7pz.x1q0g3np.x78zum5.x1iorvi4.x1swvt13.x1n2onr6:has-text(/shope|shopee/)
+
+
+!---------------------------------------------------------------------
+! GROUPS & FANPAGES
+!---------------------------------------------------------------------
+! Hide the suggested community chat section in groups
+www.facebook.com##.x1l90r2v.xyamay9.x193iq5w.x2lah0s.xdt5ytf.x78zum5.x9f619.x1ja2u2z.x1n2onr6
+! Hide the post creation box in groups
+www.facebook.com##.x7ep2pv.xu9j1y6.x19h7ccj.xjl7jj.x1i64zmx.x1e56ztr.x1emribx.x1xmf6yo.xs83m0k.xeuugli.x1ja2u2z.x1n2onr6.x9f619 > div > .x1yztbdb
+! Hide interactive buttons in fanpage header
+www.facebook.com##.xh8yej3 > .xh8yej3.x1n2onr6.xl56j7k.xdt5ytf.x3nfvp2.x9f619.x1a2a7pz.x1lku1pv.x87ps6o.x13rtm0m.x1e5q0jg.x3x9cwd.x1o1ewxj.xggy1nq.x1hl2dhg.x16tdsg8.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.x1ypdohk.xm0m39n.x1qhh985.xcfux6l.x972fbf.x17r0tee.x1sy0etr.xd10rxx.x1ejq31n.xjbqb8w.x1i10hfl > .x1r1pt67.x1qhmfi1.x1ye3gou.xn6708d.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x1403ito.x585lrc.x17zwfj4.xi112ho.x1q0g3np.xozqiw3.x6s0dn4.xl56j7k.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6 > .x1e0frkt.xljgi0e.x1608yet.xl56j7k.x78zum5.x6s0dn4 div:nth-child(2)
+www.facebook.com##.x1r1pt67.xtvsq51.x1ye3gou.xn6708d.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x1403ito.x585lrc.x17zwfj4.xi112ho.x1q0g3np.xozqiw3.x6s0dn4.xl56j7k.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6 > .x1e0frkt.xljgi0e.x1608yet.xl56j7k.x78zum5.x6s0dn4 div:nth-child(2)
+
+
+!---------------------------------------------------------------------
+! OTHER PAGES (MENU, MARKETPLACE)
+!---------------------------------------------------------------------
+! Hide description text in the main menu
+www.facebook.com##.xwib8y2.x1y1aw1k.x1ja2u2z.x1n2onr6.xkhd6sd.x4uap5.xeuugli.x2lwn1j.xdj266r.x1mh8g0r.x11i5rnm.xat24cr.x1qughib.xs83m0k.x1iyjqo2.xdt5ytf.x1r8uery.x78zum5.x9f619.x972fbf.x13fuv20.xm0m39n.x26u7qi.xcfux6l.xu3j5b3.x1qhh985.x1q0q8m5.x1qjc9v5 .x16ldp7u.xz62fqu.xdt5ytf.x78zum5 > div.x1ok221b.xu06os2 > .x1yc453h.xi81zsa.xo1l8bm.x1sibtaa.x1pg5gke.x676frb.x4zkp8e.x1943h6x.x1fgarty.x1cpjm7i.x1gmr53x.xhkezso.x1s928wv.x1lliihq.x1xmvt09.x1vvkbs.x13faqbe.xeuugli.x193iq5w
+! Hide ads/sponsored posts in Marketplace
+www.facebook.com##div.x1uepa24.x291uyu.xnpuxes.xjkvuk6.x1iorvi4.x150jy0e.x1e558r4.xs83m0k.x1iyjqo2.xdt5ytf.x1r8uery.x78zum5.x9f619:nth-of-type(1)
+www.facebook.com##.x1qughib.x1iyjqo2.xdt5ytf.x1r8uery.x78zum5.x1pha0wt
+
+
+!---------------------------------------------------------------------
+! MESSENGER (www.messenger.com)
+!---------------------------------------------------------------------
+! Hide UI elements in the chat window
+www.messenger.com##.xzd29fr.x1lku1pv.x5ib6vp.x18d9i69.xc73u3c.xexx8yu.xt55aet.x1c4vz4f.xknmibj.x1q0g3np.xozqiw3.x6s0dn4.x1qughib.xeuugli.xs83m0k.x1r8uery.x78zum5.x1ja2u2z.x1n2onr6.x9f619
+www.messenger.com##.xs83m0k.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.html-div
+
 
 !*********************************************************************
 ! YOUTUBE (www.youtube.com)
 !*********************************************************************
 
 !---------------------------------------------------------------------
-! GENERAL YOUTUBE INTERFACE & MASTHEAD (TOP BAR)
+! HEADER & SEARCH
 !---------------------------------------------------------------------
-
-! Hide "Sign In" / other primary masthead buttons
-www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
-
-! Hide voice search button in the search bar
+! Hide the voice search button
 www.youtube.com###voice-search-button
-
-! Hide search box assistant/suggestions wrapper
-www.youtube.com##.ytSearchboxComponentYtdTextInputAssistantWrapper
-
-! Hide country code display next to YouTube logo
+! Hide the "Create" (upload) button
+www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+! Hide the notifications button
+www.youtube.com##.ytd-notification-topbar-button-renderer.style-scope
+! Hide country code indicator
 www.youtube.com###country-code
+! Hide the sign-in button
+www.youtube.com##ytd-button-renderer.ytd-masthead
+! Hide search suggestions dropdown
+www.youtube.com##.sbib_c
 
-! Hide notifications button (bell icon) in masthead
-www.youtube.com##ytd-masthead ytd-notification-topbar-button-renderer
 
 !---------------------------------------------------------------------
-! SIDEBAR (GUIDE)
+! LEFT SIDEBAR
 !---------------------------------------------------------------------
-
-! Hide "Shorts" link in main sidebar
-www.youtube.com##ytd-guide-section-renderer ytd-guide-entry-renderer:has-text(Shorts)
-
-! Hide 3rd main sidebar section (e.g., Explore, Subscriptions if not logged in)
+! Hide the "Explore" section
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
-
-! Hide 4th main sidebar section (e.g., More from YouTube)
+! Hide the "More from YouTube" section
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
-
-! Hide 5th main sidebar section (e.g., Settings, Help, Feedback)
+! Hide the "Settings", "Report history", etc. section
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
 
-! Hide sidebar footer (links like About, Press, Copyright, etc.)
-www.youtube.com###footer
-
-! Hide "Shorts" link in mini-sidebar (when main sidebar is collapsed)
-www.youtube.com##.ytd-mini-guide-entry-renderer:has-text(/Short/)
 
 !---------------------------------------------------------------------
-! HOMEPAGE
+! VIDEO PAGE
 !---------------------------------------------------------------------
-
-! Hide "Shorts" shelves/sections on the homepage
-www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(/Short/)
-
-!---------------------------------------------------------------------
-! WATCH PAGE (VIDEO PLAYER PAGE)
-!---------------------------------------------------------------------
-
-! Hide channel "Join" / "Sponsor" button below video player
-www.youtube.com###sponsor-button
-
-! Hide actions text
-www.youtube.com##ytd-menu-renderer .yt-spec-button-shape-next__button-text-content
-www.youtube.com##.yt-spec-button-shape-next__icon:style(margin-right: -6px!important)
-
-
-
-!---------------------------------------------------------------------
-! VIDEO DESCRIPTION AREA
-!---------------------------------------------------------------------
-
-! Hide metadata rows in description (e.g., "Music in this video", "Game title")
-www.youtube.com##.ytd-metadata-row-container-renderer
-
-! Hide infocards section renderer within description
-www.youtube.com##ytd-video-description-infocards-section-renderer
-
-! Hide specific bold links in description info container (e.g., hashtags, channel mentions)
-www.youtube.com###info-container a.bold.yt-formatted-string.style-scope.yt-simple-endpoint
-
-!---------------------------------------------------------------------
-! COMMENTS SECTION
-!---------------------------------------------------------------------
-
-! Hide comment action menu (three dots menu for report, etc.)
+! Hide the action menu (three dots)
 www.youtube.com###action-menu
+! Hide the download button
+www.youtube.com##.ytd-download-button-renderer
+! Hide more buttons in the action menu (e.g., Thanks, Clip)
+www.youtube.com##yt-button-view-model.ytd-menu-renderer
+! Hide button shape container
+www.youtube.com###button-shape > .yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+! Hide the action bar below the video (Like, Share, etc.)
+www.youtube.com###toolbar
+! Hide the upload date/time text
+www.youtube.com###published-time-text
 
-! Hide comment "Reply" button
+
+!---------------------------------------------------------------------
+! VIDEO RECOMMENDATIONS (RIGHT SIDEBAR)
+!---------------------------------------------------------------------
+! Add extra margin between recommended videos
+www.youtube.com##ytd-compact-video-renderer:style(margin-bottom: 30px)
+! Hide view count and upload date line
+www.youtube.com###metadata-line
+! Increase height of video title container
+www.youtube.com##h3.ytd-compact-video-renderer:style(height: 76px)
+! Allow video title to overflow its container
+www.youtube.com###video-title.ytd-compact-video-renderer:style(overflow: visible!important)
+! Hide badges (e.g., "New") on recommended videos
+www.youtube.com##.badges
+
+
+!---------------------------------------------------------------------
+! COMMENTS
+!---------------------------------------------------------------------
+! Hide the reply button on comments
 www.youtube.com###reply-button-end
 
-! Hide comment "Dislike" button
-www.youtube.com###dislike-button
 
 !---------------------------------------------------------------------
-! RECOMMENDATIONS & RELATED VIDEOS
+! HOMEPAGE & OTHER
 !---------------------------------------------------------------------
-
-! Hide "Shorts" reel shelves (often in recommendations or end screens)
-www.youtube.com##ytd-reel-shelf-renderer
-
-! Hide badges on compact video renderers (e.g., "New", "Live" on recommended videos in sidebar/up next)
-www.youtube.com##.ytd-compact-video-renderer.badges
-
-! Adjust margin for dismissible elements (layout fix for hidden elements)
-! This might be related to recommended videos or other dismissible content.
-www.youtube.com###dismissible:style(margin-bottom: 16px!important)
-
-! Hide metadata line (views, upload date) for videos in lists/recommendations
-www.youtube.com###metadata-line
-
-!---------------------------------------------------------------------
-! VIDEO PLAYER CONTROLS
-!---------------------------------------------------------------------
-
-! Hide subtitles/CC button in player controls
-www.youtube.com##.ytp-button.ytp-subtitles-button
-
-! Hide miniplayer button in player controls
-www.youtube.com##.ytp-button.ytp-miniplayer-button
-
-!*********************************************************************
-! GOOGLE AI STUDIO (aistudio.google.com)
-! Filters based on observations around May 17, 2025 (as noted by user)
-!*********************************************************************
-
-!---------------------------------------------------------------------
-! GENERAL PAGE LAYOUT & NAVIGATION
-!---------------------------------------------------------------------
-
-! Hide main page header
-aistudio.google.com##.page-header
-
-! Hide top navigation bar
-aistudio.google.com##.top-nav
-
-! Hide general disclaimer container (often at bottom or top of page)
-aistudio.google.com##.disclaimer-container
-
-!---------------------------------------------------------------------
-! CHAT INTERFACE ELEMENTS
-!---------------------------------------------------------------------
-
-! Hide chat turn footer (typically contains like/dislike, copy, feedback icons)
-aistudio.google.com##.turn-footer
-
-!---------------------------------------------------------------------
-! CODE BLOCK ELEMENTS
-!---------------------------------------------------------------------
-
-! Hide disclaimer text within code blocks
-aistudio.google.com##ms-code-block .disclaimer
+! Hide rich shelf sections (e.g., "Shorts", "Trending") on homepage
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
+! Hide the entire footer section
+www.youtube.com###footer
 
 
 !*********************************************************************
-! SHOPEE VIETNAM (shopee.vn)
+! VOZ.VN (voz.vn)
+!*********************************************************************
+! Hide forum/node icon
+voz.vn##.node-extra-icon
+! Hide node stats (threads, messages)
+voz.vn##.node-stats
+! Hide thread metadata (author, date)
+voz.vn##.listInline--bullet.listInline
+! Hide the main right sidebar
+voz.vn##.p-body-sidebar
+! Hide user link text in the top navigation
+voz.vn##.p-navgroup-link--user.p-navgroup-link--iconic.p-navgroup-link > .p-navgroup-linkText
+! Hide the main navigation list
+voz.vn##.js-offCanvasNavSource.p-nav-list
+! Hide user signatures in posts
+voz.vn##.message-signature
+! Hide share buttons
+voz.vn##.shareButtons--iconic
+! Hide the main site header
+voz.vn##.p-header
+! Hide thread list icon cell
+voz.vn##.structItem-cell.structItem-cell--icon
+! Hide thread metadata cell (replies, views)
+voz.vn##.structItem-cell--meta.structItem-cell
+! Hide site footer
+voz.vn##.p-footer
+! Hide last post author's username
+voz.vn##.structItem-minor .username
+! Hide sidebar column container
+voz.vn##.p-body-sidebarCol
+! Blur user info in posts and reduce opacity
+voz.vn##.message-cell--user.message-cell:style(filter:blur(4px);opacity:0.3;transform: scale(0.95);)
+! Blur and reduce opacity of reaction bar
+voz.vn##.reactionsBar:style(filter:blur(4px);opacity:0.2;)
+! Hide report button
+voz.vn##.actionBar-action--report.actionBar-action
+! Hide device attribution gadget (e.g., "Sent from...")
+voz.vn##.message-attribution-gadget
+! Hide app-specific icons (vozFApp, theNEXTvoz)
+voz.vn##i:has-text(/vozFApp|theNEXTvoz/)
+! Hide external action bar set
+voz.vn##.actionBar-set--external.actionBar-set
+! Hide device attribution list
+voz.vn##.message-attribution-opposite--list.message-attribution-opposite
+! Block user avatars
+||data.voz.vn/avatars/*$image
+! Hide avatar container
+voz.vn##.message-avatar
+! Add padding to user info block
+voz.vn##.message-user:style(padding-top:12px)
+! Hide message footer (report, quote buttons)
+voz.vn##.message-footer
+! Hide site notices/announcements
+voz.vn##.notice-content
+! Limit the width of embedded images
+voz.vn##.bbImageWrapper:style(max-width:250px!important)
+
+
+!*********************************************************************
+! POE (poe.com)
+!*********************************************************************
+! Hide explore bots carousel on homepage
+poe.com##.ChatHomeMain_exploreBotsCarousel__wddju
+! Hide the right sidebar
+poe.com##.SidebarLayout_right__r1sqP
+! Hide the navbar share button
+poe.com##.ChatPageNavbar_shareButton__QuaBY
+! Hide the sidebar footer
+poe.com##.SidebarFooter_footer__3egHX
+! Hide specific sections in the left sidebar
+poe.com##section.SidebarSection_section__uBaAP:nth-of-type(2)
+poe.com##section.SidebarSection_section__uBaAP:nth-of-type(3)
+poe.com##section.SidebarSection_section__uBaAP:nth-of-type(4)
+! Hide secondary text (bot name) in chat history
+poe.com##.ChatHistoryListItem_secondaryText__bBw_y.ChatHistoryListItem_flexWithCenteredItems__Xmy6y,
+poe.com##.ChatHistoryListItem_textOverflow__vMchf.ChatHistoryListItem_secondaryText__bBw_y.ChatHistoryListItem_contentRow__U2Xfj
+! Hide message action bar and badges
+poe.com##.ChatMessageActionBar_actionBar__gyeEs,
+poe.com##.ChatMessage_badge__ah1FU
+! Widen the main chat column
+poe.com##.MainColumn_column__UEunw:style(width: 90%!important)
+poe.com##.ChatMessagesView_emptyView__HqDf7, .ChatMessagesView_infiniteScroll__vk3VX:style(width: 90%!important)
+! Make message bubbles use full width
+poe.com##.Message_botMessageBubble__aYctV, .Message_humanMessageBubble__DtRxA:style(max-width: 100%!important)
+! Hide chat title from navbar
+poe.com##.BaseNavbar_chatTitleNavbar__JROLE.HeaderBar_header__ydlc6
+! Hide bot description in explore list
+poe.com##.ExploreBotListItem_botDescription__Ps9Jt
+poe.com##.BotListItem_botDescription__9V_Sc
+
+
+!*********************************************************************
+! CLICKUP (app.clickup.com)
+!*********************************************************************
+! Hide AI content assistant toolbar item
+app.clickup.com##.ng-star-inserted.cu3-content-assistant-global-toolbar-item-toggle
+! Hide various printable/UI elements
+app.clickup.com##.ng-star-inserted.ng-tns-c3203968968-3.cu-hidden-print
+app.clickup.com##.ng-star-inserted.ng-tns-c3203968968-4.cu-hidden-print
+app.clickup.com##.ng-tns-c3274804168-0
+! Adjust main container height to full viewport
+app.clickup.com##.cu-manager2__container_v3:style(height:100vh!important)
+app.clickup.com##.cu-task-view__inner.layout-v3[_ngcontent-ng-c4245343300]:not(.embed-mode):style(height: 100vh!important; top: 0px!important;)
+! Hide location/page header
+app.clickup.com##cu-location-header-lazy-wrapper.ng-star-inserted
+! Hide "Add Task" button in list headers
+app.clickup.com##.ng-star-inserted.widget-no-drag-area.cu-task-list-header-settings__add-button
+! Hide "New Task" button in navigation menu
+app.clickup.com##.ng-star-inserted.nav-menu-item__new-tab_task.nav-menu-item_grouped-btn.nav-menu-item
+! Hide workspace title dropdown
+app.clickup.com##.cu-dropdown__toggle.ng-tns-c2273354013-12.cu-simple-bar__workspace-title
+! Hide task summary and update button
+app.clickup.com##.task-summary-and-update-button
+! Hide UI element with min-width
+app.clickup.com##.ng-tns-c3045091887-121.min-width
+! Hide dropdown list item
+app.clickup.com##.ng-star-inserted.list-item.cu-dropdown-list-item
+! Hide views bar toggle button
+app.clickup.com##.cu2-views-bar__controller-btn_toggle.cu2-views-bar__controller-btn
+! Hide bottom bar
+app.clickup.com##.cu-simple-bar__bottom
+! Hide "Summarize thread" button in comments
+app.clickup.com##button[data-test="task-comment__summarize-thread"]
+! Hide AI buttons in comments
+app.clickup.com##button[class="task-comment-ai-button-with-label ng-star-inserted"]
+
+
+!*********************************************************************
+! ZALO (chat.zalo.me)
+!*********************************************************************
+! Hide the initial "onboarding" view when no chat is selected
+chat.zalo.me##.chat-onboard.flx-center.flx-al-c.flx-col.flx
+! Hide "To-Do" tab in the left sidebar
+chat.zalo.me##.nav__tabs__top > div.rel.flx-center.flx-al-c.flx-col.flx.leftbar-tab.clickable:nth-of-type(3)
+! Hide "Business" functions tab at the bottom of the sidebar
+chat.zalo.me##.nav__tabs__bottom > div.rel.flx-center.flx-al-c.flx-col.flx.leftbar-tab.clickable:nth-of-type(2)
+! Hide the "Download Zalo" banner
+chat.zalo.me##.tds-banner-download__container
+! Hide the main body of conversation items in the list
+chat.zalo.me##.w100.flx-al-c.flx.truncate.conv-item-body__main
+! Disable various animations for faster UI
+chat.zalo.me##.animated.fadeIn, .animated.fadeInImageShow, .animated.fadeInShort, .tab-main .animated.tab-unread:style(-webkit-animation-duration: 0s!important;    animation-duration: 0s!important;)
+chat.zalo.me##.animated, .animated.zoomIn, .animated.zoomOut:style(    -webkit-animation-duration: 0s!important;    animation-duration: 0s!important;)
+! Blur user avatars
+chat.zalo.me##.zavatar:style(filter:blur(1px))
+
+
+!*********************************************************************
+! TWITCH (twitch.tv)
+!*********************************************************************
+! Hide the front page carousel
+twitch.tv##.front-page-carousel
+! Hide the sticky footer
+twitch.tv###twilight-sticky-footer-root
+! Hide Prime Gaming offers
+twitch.tv##.prime-offers
+! Hide UI element, likely in sidebar
+twitch.tv##.jcwvVY
+! Hide subscriber-only chat messages overlay
+twitch.tv##.chat-room__content.jmUA-dj.Layout-sc-1xcs6mc-0 > div.Layout-sc-1xcs6mc-0 > .jaGgya.Layout-sc-1xcs6mc-0
+! Hide chat badges
+twitch.tv##.chat-badge
+! Hide the extensions dock
+twitch.tv##.extensions-dock__layou
+! Hide various layout and text elements
+www.twitch.tv##.krbPCX.Layout-sc-1xcs6mc-0
+www.twitch.tv##.jWHzQH.Layout-sc-1xcs6mc-0 > .hsXgFK.Layout-sc-1xcs6mc-0
+www.twitch.tv##.eUABfN.CoreText-sc-1txzju1-0
+www.twitch.tv##.cmdqmU.InjectLayout-sc-1i43xsx-0
+www.twitch.tv##.REkcH.ScTextWrapper-sc-10mto54-1 > .fAVISI.Layout-sc-1xcs6mc-0 > .gNgtQs.InjectLayout-sc-1i43xsx-0
+www.twitch.tv##.game-card > .fAVISI.Layout-sc-1xcs6mc-0 > .gNgtQs.InjectLayout-sc-1i43xsx-0
+www.twitch.tv##.ccVkYh.Layout-sc-1xcs6mc-0
+www.twitch.tv##.cKIKxU.Layout-sc-1xcs6mc-0
+www.twitch.tv##.hKEeil.Layout-sc-1xcs6mc-0
+
+
+!*********************************************************************
+! GOOGLE AI (gemini.google.com, aistudio.google.com)
 !*********************************************************************
 
 !---------------------------------------------------------------------
-! POPUP BANNERS & OVERLAYS
+! GEMINI (gemini.google.com)
 !---------------------------------------------------------------------
+! Hide the safety warning/disclaimer in the chatbox
+gemini.google.com##.ng-tns-c1234278934-1.gmat-caption
+! Hide location info in sidebar
+gemini.google.com##.expanded.ng-star-inserted.sidenav-with-history-container > .ng-star-inserted
+! Hide the "Upgrade to Gemini Advanced" button
+gemini.google.com##upsell-button.ng-star-inserted
+! Hide "Activity" button in sidebar
+gemini.google.com##.ng-star-inserted.gmat-mdc-list.desktop-controls.mdc-list.mat-mdc-list-base.mat-mdc-action-list > .ng-star-inserted.mat-mdc-tooltip-trigger
+! Hide "Help" button in sidebar
+gemini.google.com##side-nav-action-button.mat-mdc-menu-trigger.mat-mdc-tooltip-trigger:nth-of-type(1)
 
-! Hide general popup banner container
-shopee.vn##shopee-banner-popup-stateful
-
-! Restore page scrolling if a popup tries to disable it
-shopee.vn##.shopee-no-scroll:style(overflow: auto!important)
-
-!---------------------------------------------------------------------
-! NAVIGATION BAR (TOP BAR)
-!---------------------------------------------------------------------
-
-! Hide generic navbar element (potentially language/country selector or similar)
-shopee.vn##._J5NJU
-
-! Hide notifications icon/link in navbar
-shopee.vn##li.navbar__link--tappable.navbar__link--hoverable.navbar__link.navbar__link--notification
-
-! Hide help link in navbar
-shopee.vn##.navbar__link--help.navbar__link--hoverable.navbar__link--tappable.navbar__link
-
-! Hide another generic navbar element (potentially user account related or other links)
-shopee.vn##.zZbJYF
-
-! Hide search bar placeholder text
-shopee.vn##.shopee-searchbar-input__input::placeholder
 
 !---------------------------------------------------------------------
-! HOMEPAGE BANNERS & CATEGORIES (Below Navbar)
+! AI STUDIO (aistudio.google.com)
 !---------------------------------------------------------------------
+! Hide external links and disclaimer sections
+aistudio.google.com##.ng-tns-c3173799720-1.external-links.nav-item-container
+aistudio.google.com##.ng-star-inserted.ng-tns-c3173799720-1.disclaimer-container
+aistudio.google.com##.ng-tns-c3712608880-1.external-links.nav-item-container
+aistudio.google.com##.ng-star-inserted.ng-tns-c3712608880-1.disclaimer-container
+aistudio.google.com##.ng-tns-c2023665138-1.external-links.nav-item-container
+aistudio.google.com##.ng-star-inserted.ng-trigger-fadeInOut.ng-trigger.ng-tns-c2023665138-1.disclaimer
 
-! Hide "hotword" banner section (promotional keywords/trends)
-shopee.vn##.section-banner-hotword--no-skin
 
-! Hide homepage category list section
-shopee.vn##.home-category-list
+!*********************************************************************
+! GROQ (groq.com)
+!*********************************************************************
+! Hide header bar
+groq.com##div.h-16.items-center.grid-cols-3.grid:nth-of-type(1)
+groq.com##div.h-16.items-center.grid-cols-3
+! Hide UI element in the main chat area
+groq.com##.p-1.gap-1.items-center.justify-center.flex-col.flex
+! Make the main chat container full-width
+groq.com##.md\:justify-center.md\:col-start-2.md\:col-span-4.z-10.items-center.md\:flex-col.flex.max-w-\[900px\].overflow-auto.flex-col.h-full.w-full:style(width:100vw!important)
+groq.com##.max-w-\[900px\]:style(max-width: 100%!important;)
+! Force grid containers to display as block
+groq.com##.grid:style(display: block!important;)
+! Reposition footer
+groq.com##footer:style(position: absolute;right: 0px;)
+
+
+!*********************************************************************
+! TIKTOK (www.tiktok.com)
+!*********************************************************************
+! Hide main content container
+www.tiktok.com##.e1mecfx01.css-hlg65e-DivMainContent
+! Hide a button element
+www.tiktok.com##.e1v8cfre0.css-1pcikqk-Button
+! Hide the report text/button
+www.tiktok.com##.e11s2kul17.css-pj2fot-DivReportText
+! Hide the search input field
+www.tiktok.com##.e11s2kul28.css-zqqb1u-DivSearchBarContainer > .e1hi1cmj0.css-kpk1zk-DivSearchFormContainer > .e14ntknm0.css-mebjpe-FormElement.search-input
+! Hide the search bar container
+www.tiktok.com##.e11s2kul28.css-zqqb1u-DivSearchBarContainer
+! Hide the tab menu ("For You", "Following")
+www.tiktok.com##.e1aa9wve0.css-3yeu18-DivTabMenuContainer
+! Hide the video action container (like, comment, share)
+www.tiktok.com##.esns4rh0.css-1swe2yf-DivActionContainer
+! Hide comment sub-content (timestamps, replies)
+www.tiktok.com##.e1g2efjf9.css-1sun2p5-PCommentSubContent
+! Remove bottom margin from comment content
+www.tiktok.com##.css-ulyotp-DivCommentContentContainer:style(margin-bottom: 0px!important)
+! Hide the login modal container
+www.tiktok.com##.e1gjoq3k0.css-py8jux-DivModalContainer
+! Restore page scrolling when modal is open
+www.tiktok.com##body.hidden:style(overflow: auto!important)
+! Hide the header's right section (login, upload buttons)
+www.tiktok.com##.e13wiwn60.css-q8q040-DivHeaderRightContainer
+! Hide the left side navigation
+www.tiktok.com##.e14l9ebt1.css-ir29em-DivSideNavContainer
+! Hide the bottom container with app links
+www.tiktok.com##.ew8lpw50.css-qxzyco-DivBottomContainer
+www.tiktok.com##.ew8lpw50.css-hpmci4-DivBottomContainer
+! Hide the category list wrapper
+www.tiktok.com##.e13i6o240.css-5xaaoq-DivCategoryListWrapper
+! Hide the meta caption line (music, effects)
+www.ewsiauk1.css-f22ew5-DivMetaCaptionLine
+! Hide wrapper for user avatar/info
+www.tiktok.com##.e1mzilcj0.css-1p94y92-DivWrapper
+! Hide the bottom comment input container
+www.tiktok.com##.e1mecfx04.css-19hqadz-DivBottomCommentContainer
+! Hide various container elements
+www.tiktok.com##.ejg0rhn0.css-1wdx3tj-DivContainer
+www.tiktok.com##.ejg0rhn0.css-1iy6zew-DivContainer
+! Hide the "Follow" button
+www.tiktok.com##.e1v8cfre0.css-1847gtm-Button-StyledFollowButtonTux.e4an5uj1
+! Hide share and other action items
+www.tiktok.com##button.e1hk3hf90.css-1ok4pbl-ButtonActionItem:nth-of-type(4)
+www.tiktok.com##button.e1hk3hf90.css-1ok4pbl-ButtonActionItem:nth-of-type(3)
+
+
+!*********************************************************************
+! REDDIT (www.reddit.com)
+!*********************************************************************
+! Hide the left sidebar/navigation container
+www.reddit.com###left-sidebar-container
+! Hide the right sidebar container
+www.reddit.com###right-sidebar-container
+! Hide "Top", "New", etc. view buttons in header
+www.reddit.com##.w-full.masthead
+! Hide a responsive block element
+www.reddit.com##span.contents > .m\:block.hidden
+! Make main content container full width
+www.reddit.com##.flex-grid--main-container-card.right-sidebar-xs:style(max-width:100%!important)
+
+
+!*********************************************************************
+! MEDIUM (medium.com, *.medium.com)
+!*********************************************************************
+! Hide various sticky headers, footers, and side panels
+cobusgreyling.medium.com##.fi.cn.q.ab.wq.wp.wo.wn.wm.wl.v.wk.t.wj
+medium.com##.fi.cn.q.ab.vm.vl.vk.vj.vi.vh.v.vg.t.vf
+medium.com##.fi.cn.q.ab.tz.ty.tx.tw.tv.tu.v.tt.t.ts
+medium.com##.fi.cn.q.ab.wg.wf.we.wd.wc.wb.v.wa.t.vz
+
+
+!*********************************************************************
+! MISCELLANEOUS WEBSITES
+!*********************************************************************
 
 !---------------------------------------------------------------------
-! FLASHSALE & MALL SECTIONS (Homepage)
+! 1OFFICE (ocg.1office.vn)
 !---------------------------------------------------------------------
+! Hide social feed right sidebar
+ocg.1office.vn##.social-right
+! Hide social feed left sidebar
+ocg.1office.vn##.social-left
+! Hide social feed filters
+ocg.1office.vn##.social-filters
+! Hide top part of post actions (like, comment buttons)
+ocg.1office.vn##.post-actions > .post-actions-top
+! Hide social status update form
+ocg.1office.vn##.social-status-form
+! Blur sub-title text in a specific widget
+.primary.statistics-widget-item > .content-item > .detail-item, 
+.statistics-widget.finance-widget.visual-widget > .visual-widget-body > .statistics-template-widget > .statistics-body-widget > .success.statistics-widget-item > .content-item > .detail-item,
+ocg.1office.vn##.statistics-widget.finance-widget.visual-widget > .visual-widget-body > .statistics-template-widget > .statistics-header-widget > .content-header > .sub-title-header:style(filter:blur(4px))
 
-! Hide flash sale section container
-shopee.vn##.R3bOnT
-
-! Hide "Shopee Mall" section on homepage
-shopee.vn##.homepage-mall-section
-
-! Hide generic section header (often used for Flashsale, Mall, etc.)
-shopee.vn##.shopee-header-section--simple
-
-!---------------------------------------------------------------------
-! SUGGESTION ITEMS / PRODUCT CARDS (Miscellaneous small elements)
-! These filters target very specific, style-based elements and might be fragile.
-!---------------------------------------------------------------------
-
-! Hide small inline badge/label on suggestion items (e.g., "Ad", "Sponsored")
-shopee.vn##.h-sp14.inline-block.mb-0\.5.mr-0\.5
-
-! Hide row of small icons or tags on suggestion items
-shopee.vn##.mb-2.overflow-hidden.items-center.text-sp10.h-5.space-x-1.flex.box-border
-
-! Hide promotional badge/tag on suggestion items (often pink, e.g., discount)
-shopee.vn##.z-30.right-0.top-0.absolute.text-xs\/sp14.px-1.py-0\.5.bg-shopee-pink.font-medium.text-shopee-primary
-
-! Hide positioned action button or overlay icon on suggestion items (bottom-right)
-shopee.vn##.pb-1.pr-1.flex.z-30.right-0.bottom-0.absolute
-
-! Hide overlay or background element on suggestion items (full width, bottom)
-shopee.vn##.absolute.bottom-0.left-0.z-10.w-full.w-full.h-full
 
 !---------------------------------------------------------------------
-! MISCELLANEOUS (Site-wide or Uncategorized)
+! BACH HOA XANH (www.bachhoaxanh.com)
 !---------------------------------------------------------------------
+! Filters added on 2024-04-10
+! Hide right category sidebar
+www.bachhoaxanh.com##.rightcate
+! Hide menu
+www.bachhoaxanh.com##.menu-knh
+! Make left category sidebar full width
+www.bachhoaxanh.com##.leftcate:style(width: 100vw!important)
+! Hide footer
+www.bachhoaxanh.com##footer
+! Hide comment box
+www.bachhoaxanh.com###boxcomment
+! Hide user/customer care section
+www.bachhoaxanh.com##.us-ca
+! Hide product box
+www.bachhoaxanh.com##productbox
+! Hide rating section
+www.bachhoaxanh.com###votedRating
+! Hide news/care section
+www.bachhoaxanh.com##.newscare
+! Hide location selection container
+www.bachhoaxanh.com##.locationContainer
 
-! Hide specific element (observed May 17, 2025)
-shopee.vn##.ciPWrW
 
 !---------------------------------------------------------------------
-! PRODUCT PAGE SPECIFIC ELEMENTS
+! CELLPHONES (cellphones.com.vn)
 !---------------------------------------------------------------------
+! Filters added on 2024-04-25
+! Hide top banner
+cellphones.com.vn###bannerTopHead
+! Hide breadcrumbs navigation
+cellphones.com.vn##.affix.block-breadcrumbs
+! Hide special promotion banner button
+cellphones.com.vn##.button__special-promotion-banner
+! Hide exclusive price block
+cellphones.com.vn##.exclusive-price-block
 
-! Hide specific element on product pages
-shopee.vn##.idmlsn
 
-! Hide another specific element on product pages
-shopee.vn##.feDSnr
+!---------------------------------------------------------------------
+! CHARLES KEITH (www.charleskeith.vn)
+!---------------------------------------------------------------------
+! Hide modal backdrop overlay
+www.charleskeith.vn##.show.modal-backdrop
+
+
+!---------------------------------------------------------------------
+! CHATGPT (chat.openai.com)
+!---------------------------------------------------------------------
+! Hide footer text (e.g., "ChatGPT can make mistakes...")
+chat.openai.com##.md\:px-\[60px\].text-token-text-secondary.text-xs.text-center.py-2.px-2.relative
+! Hide a small icon/button
+chat.openai.com##.text-xs.justify-center.items-center.w-6.h-6.flex
+! Hide UI element in sidebar
+chat.openai.com##.px-2.rounded-lg.m-0.hover\:bg-token-sidebar-surface-secondary.radix-disabled\:opacity-50.radix-disabled\:pointer-events-none.focus\:ring-0.cursor-pointer.text-sm.p-2\.5.gap-2.flex.group
+
+
+!---------------------------------------------------------------------
+! DICTIONARIES (Oxford, Soha)
+!---------------------------------------------------------------------
+! Site: www.oxfordlearnersdictionaries.com (Filters added on 2024-11-04)
+! Hide right sidebar
+www.oxfordlearnersdictionaries.com##.responsive_entry_center_right
+! Hide header
+www.oxfordlearnersdictionaries.com###ox-header
+! Hide entry header
+www.oxfordlearnersdictionaries.com##.entry-header
+! Hide related links box
+www.oxfordlearnersdictionaries.com###ring-links-box
+! Hide footer
+www.oxfordlearnersdictionaries.com##.oup-footer
+
+! Site: tratu.soha.vn (Filters added on 2024-11-04)
+! Hide personal links (login/register)
+tratu.soha.vn###p-personal
+! Hide sidebar
+tratu.soha.vn###sidebar
+! Hide footer
+tratu.soha.vn###footer
+! Hide a specific div in the search box
+tratu.soha.vn##.box_search > div:nth-of-type(4)
+! Hide portlet/widget
+tratu.soha.vn##.portlet
+
+
+!---------------------------------------------------------------------
+! GOCMOD FORUM (forum.gocmod.com)
+!---------------------------------------------------------------------
+! Hide a specific embedded image
+forum.gocmod.com##[src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-lua61kdx7m6pd9.webp"]
+
+
+!---------------------------------------------------------------------
+! GOODREADS (www.goodreads.com)
+!---------------------------------------------------------------------
+! Hide promo container in main content
+www.goodreads.com##.mainContentContainer--promo
+! Hide the site header banner
+www.goodreads.com##.SiteHeaderBanner
+! Adjust header height
+www.goodreads.com###Header:style(height: auto!important)
+! Hide share buttons on book page
+www.goodreads.com##.BookPageTitleSection__share
+! Hide the tertiary column (right sidebar) on homepage
+www.goodreads.com##.homeTertiaryColumn
+! Hide the reading challenge module
+www.goodreads.com##.readingChallenge
+! Hide a specific section in the right rail
+www.goodreads.com##section.showForLargeWidth.u-paddingBottomMedium.gr-homePageRailContainer:nth-of-type(2)
+! Widen the primary column to fill space
+www.goodreads.com##.homePrimaryColumn:style(width: calc(1220px - 300px - 20px - 20px)!important;     margin-right: 0px!important)
+! Hide the full-width image container in the header
+www.goodreads.com##.siteHeader__topFullImageContainer
+
+
+!---------------------------------------------------------------------
+! GOOGLE (www.google.com, translate.google.com)
+!---------------------------------------------------------------------
+! Site: www.google.com
+! Hide search result footer ("Learn more", etc.)
+www.google.com##.ZhtFke
+
+! Site: translate.google.com (Filters added on 2024-04-08)
+! Hide various UI elements on the page
+translate.google.com##.VlPnLc
+translate.google.com##.OwOEge
+translate.gogle.com##.nidPne
+translate.google.com##.ZTPlmc
+translate.google.com##.XExWNc
+translate.google.com##.BvMHHf
+translate.google.com##.vNTDhc
+
+
+!---------------------------------------------------------------------
+! HACOM (hacom.vn)
+!---------------------------------------------------------------------
+! Filters added on 2024-04-28
+! Hide right floating banner
+hacom.vn###hoamairight
+! Hide fixed banner container
+hacom.vn###js-fixed-banner-container-2023
+! Hide left floating banner
+hacom.vn###hoadaoleft
+
+
+!---------------------------------------------------------------------
+! HELLO BACSI (hellobacsi.com)
+!---------------------------------------------------------------------
+! Filters added on 2024-05-02
+! Hide desktop ad container
+hellobacsi.com##.article-desktop-ad-container
+! Hide elements with a specific class
+hellobacsi.com##.no-replace-click
+hellobacsi.com##.kVMMSA.sc-5864ecd3-0
+hellobacsi.com##.hTNnXa.sc-c41e0b28-1
+! Hide popup wrapper
+hellobacsi.com###hhg-comp-popup-wrapper
+! Restore scrolling when popup is active
+hellobacsi.com##.noscroll:style(overflow:auto!important)
+! Hide action bar
+hellobacsi.com##.action-bar
+! Hide products widget
+hellobacsi.com##.mantine-ProductsWidget-root
+! Hide chat/support widget container
+hellobacsi.com##.subot--container
+
+
+!---------------------------------------------------------------------
+! INSTAGRAM (www.instagram.com)
+!---------------------------------------------------------------------
+! Hide "Not now" login prompt / overlay
+www.instagram.com##.xzkaem6.x1n2onr6
+! Hide a button or UI element, likely related to prompts
+www.instagram.com##._abcm._aa5t._abck._abci._abcg._abcf._abab._ab9-._abby._abbg._ab9p._ab9m._ab9h._ab9c._ab99._ab94._ab8w._ab8q
+
+
+!---------------------------------------------------------------------
+! JAPANESETASTE (int.japanesetaste.com)
+!---------------------------------------------------------------------
+! Hide product recommendations section
+int.japanesetaste.com##.product-recommendations
+
+
+!---------------------------------------------------------------------
+! LAPTOP LESON (laptopleson.com)
+!---------------------------------------------------------------------
+! Hide a 50% width column element
+laptopleson.com##.elementor-element-12eb16a.elementor-element.elementor-inner-column.elementor-col-50.elementor-column > .elementor-element-populated.elementor-column-wrap > .elementor-widget-wrap
+
+
+!---------------------------------------------------------------------
+! LAPTOP WORLD (laptopworld.vn)
+!---------------------------------------------------------------------
+! Hide top bar container
+laptopworld.vn##.top > .container
+
+
+!---------------------------------------------------------------------
+! OCG TECHNOLOGY (ocgtechnologyjsc-dev1.outsystemsenterprise.com)
+!---------------------------------------------------------------------
+! Filters added on 2024-05-03
+! Hide the left side of the login layout
+ocgtechnologyjsc-dev1.outsystemsenterprise.com##.sc-layout-login-left
+! Make the right side of the login layout full width
+ocgtechnologyjsc-dev1.outsystemsenterprise.com##.sc-layout-login-right:style(width:100%!important)
+
+
+!---------------------------------------------------------------------
+! ONLINE GDB (www.onlinegdb.com)
+!---------------------------------------------------------------------
+! Filters added on 2024-04-09
+! Hide left component (file explorer)
+www.onlinegdb.com###left-component
+! Make right component (editor) start from the left edge
+www.onlinegdb.com###right-component:style(left: 0!important)
+! Hide a button in the control bar
+www.onlinegdb.com###control-bar > .btn-warning.btn
+
+
+!---------------------------------------------------------------------
+! ONLINE2PDF (online2pdf.com)
+!---------------------------------------------------------------------
+! Filters added on 2024-04-10
+! Hide header
+online2pdf.com##.header
+! Hide ad box container
+online2pdf.com##.adboxcontainer
+! Hide main section container
+online2pdf.com##div.main_section
+! Hide a specific table cell
+online2pdf.com###main_content > table > tbody > tr:nth-of-type(2) > td
+! Hide the second column of a table
+online2pdf.com##.main > table > tbody > tr > td:nth-of-type(2)
+! Hide feedback info box
+online2pdf.com##.feedback_info
+! Hide a specific table
+online2pdf.com##.c01929.c01919 > div > table
+! Hide "multiple files" text
+online2pdf.com##.multiple_files_text
+! Hide specific menu items (FAQ, Feedback, Donation, etc.)
+online2pdf.com###menu > table > tbody > tr > td > .c01919 > [href="/faq"]
+online2pdf.com###menu > table > tbody > tr > td > .c01919 > [href="/feedback"]
+online2pdf.com###menu > table > tbody > tr > td > .c01919 > [href="/donation"]
+online2pdf.com###menu > table > tbody > tr > td > .c01919 > [href="/features"]
+online2pdf.com###menu > table > tbody > tr > td > .c01919 > [href="/contact"]
+! Left-align menu text
+online2pdf.com###menu > table > tbody > tr > td > .c01919:style(text-align:left!important)
+! Hide drag-and-drop text
+online2pdf.com##.dragdrop_text
+
+
+!---------------------------------------------------------------------
+! OUTSYSTEMS SUCCESS (success.outsystems.com)
+!---------------------------------------------------------------------
+! Hide main menu background
+success.outsystems.com##.main-menu__container__background
+! Hide right and left content sidebars
+success.outsystems.com###b3-b1-RightContent
+success.outsystems.com###b3-b1-LeftContent
+success.outsystems.com###b2-b1-RightContent
+success.outsystems.com###b2-b1-LeftContent
+! Make main content full width
+success.outsystems.com###b3-b1-MainContent:style(width:100%!important)
+success.outsystems.com###b2-b1-MainContent:style(width:100%!important)
+! Hide main footer
+success.outsystems.com##.main-footer
+! Hide edit button
+success.outsystems.com##.btn-edit.btn-s.btn-icon.btn-inverted.os-btn-dark
+
+
+!---------------------------------------------------------------------
+! PC WORLD (www.pcworld.com)
+!---------------------------------------------------------------------
+! Hide social media links in secondary nav
+www.pcworld.com##.secondaryNav-social-wrap
+! Hide affiliate disclaimer
+www.pcworld.com##.affiliate-disclaimer
+! Hide secondary navigation bar
+www.pcworld.com###secondaryNav
+
+
+!---------------------------------------------------------------------
+! PINTEREST (www.pinterest.com)
+!---------------------------------------------------------------------
+! Hide a floating UI element or button
+www.pinterest.com##.Hsu.iyn.zI7.p6V.ojN.jzS.imm.fte.fev.dxm._he.PKX.Lej.LCN.KS5.Jea
+
+
+!---------------------------------------------------------------------
+! SPOTIFY (open.spotify.com)
+!---------------------------------------------------------------------
+! Hide cookie consent SDK banner
+open.spotify.com###onetrust-consent-sdk
+! Hide upgrade/premium button
+open.spotify.com##.JG5J9NWJkaUO9fiKECMA
+! Hide install app button
+open.spotify.com##.i4nABk12gLqZuh9Jbdw1
+! Hide footer container
+open.spotify.com##.main-view-container__mh-footer-container
+
+
+!---------------------------------------------------------------------
+! SQLTEST (sqltest.net)
+!---------------------------------------------------------------------
+! Hide card deck section
+sqltest.net##.col-sm-12.card-deck
+! Hide success alert box
+sqltest.net##.alert-success.alert
+! Hide row and column containers
+sqltest.net##.mb-1.row > .col-sm-12
+sqltest.net##.text-center.col-sm-12
+! Hide info alert box
+sqltest.net##.alert-info.alert
+
+
+!---------------------------------------------------------------------
+! TAOBAO (vn.world.taobao.com)
+!---------------------------------------------------------------------
+! Filters added on 2024-04-25
+! Hide the footer with logo
+vn.world.taobao.com##.tb-footer-with-logo.tb-footer
+! Hide the top site navigation
+vn.world.taobao.com##.site-nav.rax-view-v2
+! Hide the "collect and find" container
+vn.world.taobao.com##.collect-find-container.rax-view-v2
+
+
+!---------------------------------------------------------------------
+! THANH NIEN (thanhnien.vn)
+!---------------------------------------------------------------------
+! Filters added on 2024-05-13
+! Hide sticky social share bar
+thanhnien.vn##.detail__sticky
+! Hide article sub-content/sidebar
+thanhnien.vn##.detail__cmain-sub
+! Hide top social sharing buttons
+thanhnien.vn##div.social-top
+
+
+!---------------------------------------------------------------------
+! THE GIOI DI DONG (www.thegioididong.com)
+!---------------------------------------------------------------------
+! Filters added on 2024-04-21
+! Hide topic column
+www.thegioididong.com##.col_topic
+! Make content column full width
+www.thegioididong.com##.col_content:style(width:100%!important)
+! Hide search/ask section
+www.thegioididong.com##.search_ask
+! Hide banner media
+www.thegioididong.com##.banner-media
+! Hide user row and area
+www.thegioididong.com##.rowuser
+www.thegioididong.com##.area_user
+! Hide banner on detail pages
+www.thegioididong.com###bannerbody > .banner-detail
+www.thegioididong.com##.banner-detail
+! Hide site footer
+www.thegioididong.com##.footer
+! Block specific banner images
+||cdn.tgdd.vn/2024/03/banner/*$image
+! Hide related questions and title
+www.thegioididong.com##.askrelate
+www.thegioididong.com##.titlerelate
+! Hide keyword list
+www.thegioididong.com##.kwLst
+! Hide rating box
+www.thegioididong.com##.boxRatingNew
+! Hide promotion box
+www.thegioididong.com##.boxpromote
+! Hide main header
+www.thegioididong.com##.header__main
+! Hide top list in header
+www.thegioididong.com##.header__listtop
+! Adjust padding of top header
+www.thegioididong.com##.header__top:style(padding-bottom:12px!important)
+
+
+!---------------------------------------------------------------------
+! TRANG TUYEN SINH 24H (trangtuyensinh24h.com)
+!---------------------------------------------------------------------
+! Filters added on 2024-04-24
+! Hide post sidebar
+trangtuyensinh24h.com##.post-sidebar
+! Hide floating contact button
+trangtuyensinh24h.com###button-contact-vr
+! Hide Facebook chat widget
+trangtuyensinh24h.com##.chat_fb
+
+
+!---------------------------------------------------------------------
+! TWITTER (twitter.com)
+!---------------------------------------------------------------------
+! Hide UI element, possibly a prompt or banner
+twitter.com##.r-yz1j6i.r-qo02w8.r-l5o3uw.css-175oi2r
+
+
+!---------------------------------------------------------------------
+! VIBLO (viblo.asia)
+!---------------------------------------------------------------------
+! Hide promo banner
+viblo.asia##.promo__banner
+! Hide fixed bottom bar
+viblo.asia##.fixed-bottom-bar
+! Hide post author info
+viblo.asia##.post-author__info 
+! Hide post stats
+viblo.asia##.stats
+! Hide subscribe button
+viblo.asia##.subscribe
+! Hide muted text
+viblo.asia##.text-muted
+! Hide post meta info
+viblo.asia##.post-meta
+! Hide post menu
+viblo.asia##.post__menu
+! Hide post action buttons
+viblo.asia##.post-action
+! Hide post footer
+viblo.asia##.post-footer
+! Hide license text
+viblo.asia##.license-text
+! Hide related posts box
+viblo.asia##.elated-posts-box 
+! Hide dialog wrapper and modal overlay
+viblo.asia##.el-dialog__wrapper
+viblo.asia##.v-modal
+! Hide site footer
+viblo.asia##.footer
+! Hide a group of navbar items
+viblo.asia##div.main-navbar__group
+! Restore scrolling when popup is hidden
+viblo.asia##.el-popup-parent--hidden:style(overflow: auto!important)
+
+
+!---------------------------------------------------------------------
+! VNEXPRESS (vnexpress.net)
+!---------------------------------------------------------------------
+! Filters added on 2024-05-14
+! Hide pinned social share buttons
+vnexpress.net##.social_pin
+! Hide the second sidebar
+vnexpress.net##.sidebar-2
+! Hide adblock notice button
+vnexpress.net##.button-adblock
+! Make main article container full width
+vnexpress.net##.top-detail.page-detail.section > .container > .sidebar-1:style(max-width:100%!important)
+
+
+!---------------------------------------------------------------------
+! W3SCHOOLS (www.w3schools.com)
+!---------------------------------------------------------------------
+! Hide a column in the main layout
+www.w3schools.com##.m12.l2.w3-col
+! Hide the footer
+www.w3schools.com###footerwrapper
+! Hide user profile bottom wrapper
+www.w3schools.com##.user-profile-bottom-wrapper
+! Hide the right section of the top nav bar (login, etc.)
+www.w3schools.com##.tnb-right-section
+! Hide desktop navigation items
+www.w3schools.com##.w3-bar-item.tnb-desktop-nav
+! Hide the sub-navigation bar
+www.w3schools.com###subtopnav
+! Make main content area full width and adjust margin
+www.w3schools.com###main:style(width:100%!important; margin-top: 25px!important;)
+! Adjust padding of the left menu
+www.w3schools.com###leftmenuinner:style(padding-top: 60px!important)
